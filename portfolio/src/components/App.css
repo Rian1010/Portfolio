@@ -1,3 +1,5 @@
+/* Banner */
+
 .banner-img {
   width: 200px;
   height: 200px;
@@ -37,6 +39,14 @@
   bottom: 0;
 }
 
+/* About */
+
+.blue-background {
+  background-color: #d2f9ff;
+}
+
+/* Cards */
+
 .grid-3 {
   display: grid;
   justify-items: left;
@@ -66,4 +76,13 @@
     row-gap: 15px;
     grid-template-rows: auto;
   }
+}
+
+/* Footer */
+.footer-lists {
+  list-style: none;
+}
+
+.footer-colour {
+  color: #333;
 }
