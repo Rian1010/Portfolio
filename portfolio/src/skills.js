@@ -1,21 +1,26 @@
 const jsSkills = [
     {
         skillName: "JavaScript",
-        level: "85",
+        level: "90",
         colour: "info"
     },
     {
         skillName: "jQuery",
-        level: "70",
+        level: "88",
         colour: "success"
     },
     {
         skillName: "React.js",
-        level: "40",
+        level: "70",
         colour: "success"
     },
     {
         skillName: "Node.js",
+        level: "50",
+        colour: "success"
+    },
+    {
+        skillName: "DC.js & D3.js",
         level: "30",
         colour: "success"
     },
@@ -29,7 +34,7 @@ const pySkills = [
     },
     {
         skillName: "Django",
-        level: "85",
+        level: "88",
         colour: "success"
     },
     {
@@ -47,12 +52,12 @@ const dbSkills = [
     },
     {
         skillName: "MySQL",
-        level: "80",
+        level: "75",
         colour: "info"
     },
     {
         skillName: "PostgresSQL",
-        level: "80",
+        level: "75",
         colour: "info"
     },
 ]
@@ -70,7 +75,12 @@ const ucdSkills = [
     },
     {
         skillName: "SCSS",
-        level: "90",
+        level: "95",
+        colour: "success"
+    },
+    {
+        skillName: "Bootstrap",
+        level: "95",
         colour: "success"
     },
 ]
@@ -86,12 +96,12 @@ const versionControl = [
 const otherTools = [
     {
         skillName: "Webflow",
-        level: "90",
+        level: "95",
         colour: "info"
     },
     {
         skillName: "Adobe XD",
-        level: "80",
+        level: "95",
         colour: "info"
     },
 ]
