@@ -11,7 +11,7 @@ const jsSkills = [
     },
     {
         skillName: "React.js",
-        level: "70",
+        level: "75",
         colour: "success"
     },
     {
@@ -88,6 +88,21 @@ const ucdSkills = [
 const versionControl = [
     {
         skillName: "Git",
+        level: "90",
+        colour: "info"
+    },
+    {
+        skillName: "Github",
+        level: "90",
+        colour: "info"
+    },
+    {
+        skillName: "Heroku",
+        level: "90",
+        colour: "info"
+    },
+    {
+        skillName: "Amazon Web Service",
         level: "90",
         colour: "info"
     },

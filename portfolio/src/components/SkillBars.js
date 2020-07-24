@@ -11,7 +11,7 @@ function SkillBars() {
                         <h2 className="display-4">Skills</h2>
                     </Col>
                 </Row>
-                <Row>
+                <Row className="pt-5">
                     <Col md={6}>
                         <h3>User Centric Development</h3>
                         {
@@ -69,7 +69,7 @@ function SkillBars() {
                         }
                     </Col>
                     <Col md={6}>
-                        <h3>Version Control</h3>
+                        <h3>Version Control & Web Services</h3>
                         {
                             versionControl.map(skill => (
                                 <ProgressBar 

@@ -7,11 +7,8 @@ import Footer from './Footer';
 import Snippets from './SnippetShow';
 import websiteInfo from '../websites';
 import siteSnippets from '../snippets'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Container, Row, Col } from 'react-bootstrap';
 import './App.css';
-import { ProgressBar } from 'react-bootstrap';
 // import phoneSite from '../img/phoneSite.png';
 
 
@@ -38,8 +35,8 @@ function App() {
                   class={ `bg ${cardInfo.img}` }
                   technologies={cardInfo.technologies}
                   title={cardInfo.title}
-                  url={cardInfo.sourceCode}
-                  source={cardInfo.websiteURL}
+                  url={cardInfo.websiteURL}
+                  source={cardInfo.sourceCode}
                 />
                 ))}
               </Col>
