@@ -5,14 +5,17 @@ import './App.css';
 function Cards(props) {
     return (
         <Card style={{ width: '100%' }} >
-            <Card.Img variant="top" src="{props.img}" />
-            <Card.Body>
+            <div variant="top" className={props.class}></div>
+            {/* <Card.Img variant="top" src={props.class} /> */}
+            <Card.Body className="d-flex flex-column justify-content-between">
                 <Card.Title>{props.title}</Card.Title>
                 <Card.Text>
                     {props.technologies}
                 </Card.Text>
-                <Button variant="primary">Source Code</Button>
-                <Button variant="primary">Go to the Website</Button>
+                <div className="d-flex justify-content-between">
+                    <a className="btn btn-primary" href={props.url}>Go to the Website</a>
+                    <a className="btn btn-primary" href={props.source}>Source Code</a>
+                </div>
             </Card.Body>
         </Card>
     );
