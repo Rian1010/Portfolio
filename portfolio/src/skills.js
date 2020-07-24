@@ -23,7 +23,7 @@ const jsSkills = [
         skillName: "DC.js & D3.js",
         level: "30",
         colour: "success"
-    },
+    }
 ]
 
 const pySkills = [
@@ -41,7 +41,7 @@ const pySkills = [
         skillName: "Flask",
         level: "80",
         colour: "success"
-    },
+    }
 ]
 
 const dbSkills = [
@@ -59,7 +59,7 @@ const dbSkills = [
         skillName: "PostgresSQL",
         level: "75",
         colour: "info"
-    },
+    }
 ]
 
 const ucdSkills = [
@@ -82,15 +82,10 @@ const ucdSkills = [
         skillName: "Bootstrap",
         level: "95",
         colour: "success"
-    },
+    }
 ]
 
 const versionControl = [
-    {
-        skillName: "Git",
-        level: "90",
-        colour: "info"
-    },
     {
         skillName: "Github",
         level: "90",
@@ -106,6 +101,11 @@ const versionControl = [
         level: "90",
         colour: "info"
     },
+    {
+        skillName: "Git",
+        level: "90",
+        colour: "info"
+    }
 ]
 
 const otherTools = [
@@ -118,7 +118,7 @@ const otherTools = [
         skillName: "Adobe XD",
         level: "95",
         colour: "info"
-    },
+    }
 ]
 
 export { jsSkills, pySkills, dbSkills, ucdSkills, versionControl, otherTools }

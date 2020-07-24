@@ -69,7 +69,7 @@ function SkillBars() {
                         }
                     </Col>
                     <Col md={6}>
-                        <h3>Version Control & Web Services</h3>
+                        <h3>Services & Version Control</h3>
                         {
                             versionControl.map(skill => (
                                 <ProgressBar 
