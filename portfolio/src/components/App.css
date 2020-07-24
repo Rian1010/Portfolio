@@ -42,8 +42,14 @@
   height: 300px;
   background-image: url('../img/devices.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+}
+
+@media (min-width: 576px) {
+  .about-img {
+    background-size: cover;
+  }
 }
 
 .blue-background {
@@ -61,7 +67,7 @@
   grid-template-rows: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .grid-3 {
     display: grid;
     justify-items: left;
@@ -72,7 +78,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .grid-3 {
     display: grid;
     justify-items: left;
@@ -84,10 +90,16 @@
 }
 .bg {
   width: 100%;
-  height: 202px;
+  height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
+}
+
+@media (min-width: 768px) {
+  .bg {
+    height: 202px;
+  }
 }
 
 .site-1 {

@@ -13,9 +13,9 @@ function About() {
                         </h2>
                     </Col>
                 </Row>
-                <Row className="py-5">
+                <Row className="py-3 py-md-5">
                     <Col xs={12} md={6} className="about-img"></Col>
-                    <Col xs={12} md={6} className="text-center">
+                    <Col xs={12} md={6} className="text-center pt-4 pt-md-0">
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
                             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 

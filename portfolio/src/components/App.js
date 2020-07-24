@@ -32,7 +32,7 @@ function App() {
             <Col className="grid-3">
               {websiteInfo.map(cardInfo => (
                 <Cards
-                  class={ `bg ${cardInfo.img}` }
+                  image={ `bg ${cardInfo.img}` }
                   technologies={cardInfo.technologies}
                   title={cardInfo.title}
                   url={cardInfo.websiteURL}
