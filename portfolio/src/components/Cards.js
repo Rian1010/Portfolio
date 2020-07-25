@@ -30,7 +30,7 @@ function Cards(props) {
                     <a className="btn btn-primary" href={props.source} target="_blank" rel="noopener noreferrer">Source Code</a>
                 </div>
             </Card.Body>
-            <Toast show={urlAvailable} onClose={closeToast} style={{ position: "fixed", zIndex: 999, top: 20, right: 20 }} >
+            <Toast show={urlAvailable} onClose={closeToast} style={{ position: "fixed", zIndex: 999, top: 75, right: 20 }} >
                 <Toast.Header>
                 <img src="holder.js/20x20?text=%20" className="rounded mr-2" alt="" />
                 <strong className="mr-auto">Not Yet Available</strong>

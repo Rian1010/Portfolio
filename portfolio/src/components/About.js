@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 function About() {
     return (
-        <section className="blue-background pt-5">
+        <section className="blue-background pt-5" id="about">
             <Container>
                 <Row className="text-center">
                     <Col>

@@ -4,7 +4,7 @@ import { jsSkills, pySkills, dbSkills, ucdSkills, versionControl, otherTools } f
 
 function SkillBars() {
     return (
-        <section className="blue-background py-5">
+        <section className="blue-background py-5" id="skills">
             <Container>
                 <Row className="text-center">
                     <Col>
