@@ -1,3 +1,14 @@
+/* Navbar */
+
+.flag-de {
+  width: 20%;
+  height: 20px;
+  background-image: url('../img/german-flag.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
 /* Banner */
 
 .banner-img {
