@@ -3,7 +3,7 @@ import './App.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
 function About() {
-    if (window.location.pathname == "/") {
+    if (window.location.pathname === "/") {
         return (
             <section className="blue-background pt-5" id="about">
                 <Container>
@@ -14,9 +14,9 @@ function About() {
                             </h2>
                         </Col>
                     </Row>
-                    <Row className="py-3 py-md-5">
-                        <Col xs={12} md={6} className="about-img"></Col>
-                        <Col xs={12} md={6} className="text-center pt-4 pt-md-0">
+                    <Row className="py-3 py-md-5 d-flex align-items-center">
+                        <Col xs={12} lg={6} className="about-img"></Col>
+                        <Col xs={12} lg={6} className="text-center pt-4 pt-lg-0">
                             <p>
                                 Programming is one of my greatest passions! Ever since I learned how to code, I was captivated 
                                 from designing websites responsive coding their functionalities with programming languages, libraries 
@@ -25,9 +25,10 @@ function About() {
                             </p>
                             <p>
                                 Moreover, problem solving is one of the most important aspects in software development and these
-                                need to be done with motivation and dedication. Therefore, I always do my best to find the best
-                                solutions by trying different ways of coding something or researching. If I am really stuck for 
-                                days, I usually communicate with other programmers to come up with a practical solution.
+                                need to be done with motivation and dedication. Therefore, I always do my best to find the most 
+                                efficient solutions by trying different ways of coding something or researching about it. If I am 
+                                really stuck for days, I usually communicate with other programmers to come up with a practical 
+                                solution.
                             </p>
                             <p>
                                 My goal is to bring forth a pleasant user-experience by coding appealing designs and intuitive 
@@ -40,7 +41,7 @@ function About() {
             </section>
         );
     }
-    else if (window.location.pathname == "/de") {
+    else if (window.location.pathname === "/de") {
         return (
             <section className="blue-background pt-5" id="about">
                 <Container>
@@ -51,9 +52,9 @@ function About() {
                             </h2>
                         </Col>
                     </Row>
-                    <Row className="py-3 py-md-5">
-                        <Col xs={12} md={6} className="about-img"></Col>
-                        <Col xs={12} md={6} className="text-center pt-4 pt-md-0">
+                    <Row className="py-3 py-md-5 d-flex align-items-center">
+                        <Col xs={12} lg={6} className="about-img"></Col>
+                        <Col xs={12} lg={6} className="text-center pt-4 pt-lg-0">
                             <p>
                                 Programmieren ist einer meiner größten Leidenschaften! Seit ich gelernt habe zu codieren, war ich 
                                 von responiven Gestaltungen von Websites bis zur Codierung ihrer Funktionalitäten mit 
@@ -63,7 +64,7 @@ function About() {
                             <p>
                                 Darüber hinaus ist die Problemlösung einer der wichtigsten Aspekte in der Softwareentwicklung also 
                                 müssen diese mit hoher Motivation und Engagement getan werden. Deshalb gebe ich immer mein Bestes, 
-                                um die besten Lösungen zu finden, indem ich verschiedene Arten der Codierung ausprobiere oder viel 
+                                um die effizienteste Lösungen zu finden, indem ich verschiedene Arten der Codierung ausprobiere oder viel 
                                 recherchiere. Wenn ich aber tagelang feststecke, kommuniziere ich normalerweise mit anderen 
                                 Programmierern, um eine praktische Lösung zu finden.
                             </p>

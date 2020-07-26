@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Navbar, Nav, Button } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 function Navigation() {
