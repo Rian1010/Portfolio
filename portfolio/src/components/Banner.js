@@ -16,9 +16,9 @@ function Banner() {
                         <h4 className="lead pl-1">HTML, CSS, JavaScript, Python, Django, React.js, Node.js, Flask, SQL, MongoDB</h4>
                     </Col>
                     <Col md={6} className="banner-img d-none d-md-block"></Col>
-                    <Col className="learn-more-button text-center d-none d-md-block mb-5">
+                    <Col className="learn-more-button text-center d-none d-md-block pb-4">
                         <a href="#about" className="learn-more-btn">
-                            <p className="pb-4">Learn More About What I Do</p>
+                            <p>Learn More About What I Do</p>
                             <i className="fas fa-chevron-down"></i>
                         </a>
                     </Col>
