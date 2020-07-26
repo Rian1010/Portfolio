@@ -19,7 +19,7 @@ function About() {
                         <Col xs={12} md={6} className="text-center pt-4 pt-md-0">
                             <p>
                                 Programming is one of my greatest passions! Ever since I learned how to code, I was captivated 
-                                from designing websites and coding their functionalities with programming languages, libraries 
+                                from designing websites responsive coding their functionalities with programming languages, libraries 
                                 and frameworks. In addition, I have used Search Engine Optimisation in an internship to rank 
                                 high in Google search results. 
                             </p>
@@ -55,19 +55,22 @@ function About() {
                         <Col xs={12} md={6} className="about-img"></Col>
                         <Col xs={12} md={6} className="text-center pt-4 pt-md-0">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-                                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-                                ex ea commodo consequat. 
+                                Programmieren ist einer meiner größten Leidenschaften! Seit ich gelernt habe zu codieren, war ich 
+                                von responiven Gestaltungen von Websites bis zur Codierung ihrer Funktionalitäten mit 
+                                Programmiersprachen, Bibliotheken und Frameworks fasziniert. Außerdem habe ich in einem Praktikum 
+                                Suchmaschinenoptimierung verwendet, um hoch in den Google-Suchergebnissen zu ranken.
                             </p>
                             <p>
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-                                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-                                mollit anim id est laborum.
+                                Darüber hinaus ist die Problemlösung einer der wichtigsten Aspekte in der Softwareentwicklung also 
+                                müssen diese mit hoher Motivation und Engagement getan werden. Deshalb gebe ich immer mein Bestes, 
+                                um die besten Lösungen zu finden, indem ich verschiedene Arten der Codierung ausprobiere oder viel 
+                                recherchiere. Wenn ich aber tagelang feststecke, kommuniziere ich normalerweise mit anderen 
+                                Programmierern, um eine praktische Lösung zu finden.
                             </p>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-                                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-                                ex ea commodo. 
+                                Mein Ziel ist es, eine angenehme Benutzererfahrung hervorzubringen, indem ich ansprechende und 
+                                intuitive Designs und Funktionalitäten codiere, die sich als nützlich erweisen. Außerdem ist es mir 
+                                wichtig, sauberen Code zu schreiben, sodass andere Entwickler sie mühelos verstehen können.
                             </p>
                         </Col>
                     </Row>
