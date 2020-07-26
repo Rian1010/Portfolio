@@ -41,11 +41,11 @@ function Banner() {
     }
     else if (window.location.pathname == "/de") {
         return ( 
-            <Container fluid>
+            <Container fluid className="mt-5">
                 <Row className="banner-row-1 d-flex align-items-center">
                     <Col xs={12} md={6} className="d-none d-md-block flex-column pl-md-5 text-left">
                         <h1 className="display-1">Hi, ich bin Rian!</h1>
-                        <h2 className="display-4">Full-Stack-Softwareentwickler</h2>
+                        <h2 className="display-4 word-break">Full-Stack-Softwareentwickler</h2>
                         <h4 className="lead pl-1">HTML, CSS, JavaScript, Python, Django, React.js, Node.js, Flask, SQL, MongoDB</h4>
                     </Col>
                     <Col md={6} className="banner-img d-none d-md-block"></Col>
@@ -62,7 +62,7 @@ function Banner() {
                     <Col xs={12} md={6} className="d-md-none flex-column d-flex justify-content-center align-items-left pl-md-5 text-center">
                         {/* <h1 className="display-1 d-none d-md-block">Hi, I'm Rian!</h1> */}
                         <h1 className="display-3">Hi, ich bin Rian!</h1>
-                        <h2 className="display-4">Full-Stack-Softwareentwickler</h2>
+                        <h2 className="display-4 word-break">Full-Stack-Softwareentwickler</h2>
                         <h4 className="lead pl-1">HTML, CSS, JavaScript, Python, Django, React.js, Node.js, Flask, SQL, MongoDB</h4>
                         <div>
                             <a href="#about" className="learn-more-btn">

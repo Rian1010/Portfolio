@@ -3,12 +3,12 @@ import { Card, Toast } from 'react-bootstrap';
 import './App.css';
 
 function Cards(props) {
-    const [urlAvailable, available] = useState(false)
+    const [urlAvailable, available] = useState(false);
 
     function showToast(e) {
         const link = e.target.getAttribute("href");
         if (link === "") {
-            available(true);
+            available(!urlAvailable);
             e.preventDefault();
         }
     }
@@ -16,6 +16,14 @@ function Cards(props) {
     function closeToast() {
         available(false);
     }
+
+    // const [colourChange, colourFunction] = useState(false);
+    // let thelink = props.url
+    // const link = thelink.getAttribute("href");
+    // if (link === "") {
+    //     return colourChange(true)
+    // }
+
 
     if (window.location.pathname == "/") {
         return (
@@ -27,7 +35,7 @@ function Cards(props) {
                         {props.technologies}
                     </Card.Text>
                     <div className="d-flex justify-content-between">
-                        <a onClick={showToast} className="btn btn-primary" href={props.url} target="_blank" rel="noopener noreferrer">Go to the Website</a>
+                        <a onClick={showToast} className={ urlAvailable ? "btn btn-danger" : "btn btn-primary"} href={props.url} target="_blank" rel="noopener noreferrer">Go to the Website</a>
                         <a className="btn btn-primary" href={props.source} target="_blank" rel="noopener noreferrer">Source Code</a>
                     </div>
                 </Card.Body>
@@ -54,7 +62,7 @@ function Cards(props) {
                         {props.technologies}
                     </Card.Text>
                     <div className="d-flex justify-content-between">
-                        <a onClick={showToast} className="btn btn-primary" href={props.url} target="_blank" rel="noopener noreferrer">Zur Website</a>
+                        <a onClick={showToast} className={ urlAvailable ? "btn btn-danger" : "btn btn-primary"} href={props.url} target="_blank" rel="noopener noreferrer">Zur Website</a>
                         <a className="btn btn-primary" href={props.source} target="_blank" rel="noopener noreferrer">Quellode</a>
                     </div>
                 </Card.Body>

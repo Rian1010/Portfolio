@@ -114,7 +114,7 @@ function SkillBars() {
                 <Container>
                     <Row className="text-center">
                         <Col>
-                            <h2 className="display-4">Kompetenzen</h2>
+                            <h2 className="display-4 word-break">Kompetenzen</h2>
                         </Col>
                     </Row>
                     <Row className="pt-5">
