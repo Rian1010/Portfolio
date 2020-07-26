@@ -1,7 +1,7 @@
 /* Navbar */
 
 .flag-de {
-  width: 20%;
+  width: 20px;
   height: 20px;
   background-image: url('../img/german-flag.svg');
   background-repeat: no-repeat;
@@ -64,7 +64,7 @@
 }
 
 .blue-background {
-  background-color: #d2f9ff;
+  background-color: #ecfdff;
 }
 
 /* Cards */
