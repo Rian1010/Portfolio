@@ -30,13 +30,14 @@ function Footer() {
                     <Col xs={12} md={6}>
                         <h2>Kontaktieren</h2>
                         <ul className="p-0">
-                            <li className="footer-lists"><a className="footer-colour" href="mailto:sunthbocusrian@gmail.com">sunthbocusrian@gmail.com</a></li>
+                            <li className="footer-lists"><a className="footer-colour" href="mailto:sunthbocusrian@gmail.com"><i className="far fa-envelope-open"></i> sunthbocusrian@gmail.com</a></li>
+                            <li className="footer-lists"><a className="footer-colour" href="tel:+49 171 8011984"><i className="fas fa-phone"></i> +49 171 8011984</a></li>                        
                         </ul>
                     </Col>
                     <Col xs={12} md={6}>
                         <h2>Soziales Netzwerk</h2>
                         <ul className="p-0">
-                            <li className="footer-lists"><a className="footer-colour" href="https://www.linkedin.com/in/rian-sunthbocus-66a509197/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                            <li className="footer-lists"><a className="footer-colour" href="https://www.linkedin.com/in/rian-sunthbocus-66a509197/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
                         </ul>
                     </Col>
                 </Row>

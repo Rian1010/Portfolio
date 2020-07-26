@@ -71,8 +71,8 @@ function Cards(props) {
                     <strong className="mr-auto">Noch nicht verfügbar</strong>
                     </Toast.Header>
                     <Toast.Body>
-                        Verzeihung! Der Link, den Sie erreichen möchten, ist zurzeit noch nicht verfügbar,
-                        aber Sie könne den Quellcode in der Zwischenzeit besichtigen.
+                        Verzeihung! Der Link, den Sie erreichen möchten, ist zurzeit noch nicht verfügbar.
+                        Sie können jedoch den Quellcode in der Zwischenzeit besichtigen.
                     </Toast.Body>
                 </Toast>
             </Card>

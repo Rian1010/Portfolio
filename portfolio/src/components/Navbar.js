@@ -45,7 +45,7 @@ function Navigation() {
     else if (window.location.pathname === "/de") {
         return (
             <Navbar expand="lg" bg="" variant="light" style={navColour} fixed="top">
-                <Navbar.Brand href="/">Rian</Navbar.Brand>
+                <Navbar.Brand href="/de">Rian</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto d-flex align-items-center">
