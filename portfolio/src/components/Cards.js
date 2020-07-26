@@ -29,7 +29,7 @@ function Cards(props) {
         return (
             <Card style={{ width: '100%' }} className="mt-5">
                 <a onClick={showToast} variant="top" className={props.image} href={props.url} target="_blank" rel="noopener noreferrer"></a>
-                <Card.Body className="d-flex flex-column justify-content-between text-center blue-background">
+                <Card.Body className="d-flex flex-column justify-content-between text-center">
                     <Card.Title>{props.title}</Card.Title>
                     <Card.Text>
                         {props.technologies}
