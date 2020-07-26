@@ -3,7 +3,7 @@ import { ProgressBar, Container, Row, Col } from 'react-bootstrap';
 import { jsSkills, pySkills, dbSkills, ucdSkills, versionControl, otherTools } from '../skills';
 
 function SkillBars() {
-    if (window.location.pathname === "/") {
+    if (window.location.pathname === "/" || window.location.pathname === "/Portfolio/") {
         return (
             <section className="blue-background py-5" id="skills">
                 <Container>

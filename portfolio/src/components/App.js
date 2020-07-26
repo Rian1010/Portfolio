@@ -24,7 +24,7 @@ function App() {
               <Container id="examples" className="py-5 d-flex flex-column justify-content-center align-items-center">
                 <Row>
                   <Col>
-                    <h2 className="display-4">Examples</h2>
+                    <h2 className="display-4">Work Examples</h2>
                   </Col>
                 </Row>
                 <Row>
@@ -46,6 +46,7 @@ function App() {
               <Footer />
             </div>
           } />
+
           <Route path="/de" exact render={props =>
             <div>
               <Navigation />
@@ -76,6 +77,38 @@ function App() {
               <Footer />
             </div>
           } />
+
+          <Route path="/Portfolio" exact render={props =>
+            <div>
+              <Navigation />
+              <Banner />
+              <About />
+              <Container id="examples" className="py-5 d-flex flex-column justify-content-center align-items-center">
+                <Row>
+                  <Col>
+                    <h2 className="display-4">Work Examples</h2>
+                  </Col>
+                </Row>
+                <Row>
+                    <Col className="grid-3">
+                      {websiteInfo.map((cardInfo, i) => (
+                        <Cards
+                          key={i}
+                          image={ `bg ${cardInfo.img}` }
+                          technologies={cardInfo.technologies}
+                          title={cardInfo.title}
+                          url={cardInfo.websiteURL}
+                          source={cardInfo.sourceCode}
+                        />
+                        ))}
+                      </Col>
+                </Row>
+              </Container>
+              <SkillBars />
+              <Footer />
+            </div>
+          } />
+
         </Switch>
       </Router>
     </div>

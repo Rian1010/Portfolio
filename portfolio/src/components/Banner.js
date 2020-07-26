@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 function Banner() {
-    if (window.location.pathname === "/") {
+    if (window.location.pathname === "/" || window.location.pathname === "/Portfolio/") {
         return ( 
             <Container fluid>
                 <Row className="banner-row-1 d-flex align-items-center">

@@ -3,7 +3,7 @@ import './App.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
 function About() {
-    if (window.location.pathname === "/") {
+    if (window.location.pathname === "/" || window.location.pathname === "/Portfolio/") {
         return (
             <section className="blue-background pt-5" id="about">
                 <Container>

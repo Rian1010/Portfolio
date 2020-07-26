@@ -25,7 +25,7 @@ function Cards(props) {
     // }
 
 
-    if (window.location.pathname === "/") {
+    if (window.location.pathname === "/" || window.location.pathname === "/Portfolio/") {
         return (
             <Card style={{ width: '100%' }} className="mt-5">
                 <a onClick={showToast} variant="top" className={props.image} href={props.url} target="_blank" rel="noopener noreferrer"></a>

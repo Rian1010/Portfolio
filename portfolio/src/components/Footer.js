@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
 function Footer() {
-    if (window.location.pathname === "/") {
+    if (window.location.pathname === "/" || window.location.pathname === "/Portfolio/") {
         return (
             <Container className="py-5">
                 <Row className="text-center">

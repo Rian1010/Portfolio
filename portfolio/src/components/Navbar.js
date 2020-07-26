@@ -19,7 +19,7 @@ function Navigation() {
     //     })
     // }
 
-    if (window.location.pathname === "/") {
+    if (window.location.pathname === "/" || window.location.pathname === "/Portfolio/") {
         return (
             <Navbar style={navColour} expand="lg" bg="" variant="light" fixed="top">
                 <Navbar.Brand href="/">Rian</Navbar.Brand>
