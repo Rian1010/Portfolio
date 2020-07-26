@@ -63,7 +63,7 @@ function Cards(props) {
                     </Card.Text>
                     <div className="d-flex justify-content-between">
                         <a onClick={showToast} className={ urlAvailable ? "btn btn-danger" : "btn btn-primary"} href={props.url} target="_blank" rel="noopener noreferrer">Zur Website</a>
-                        <a className="btn btn-primary" href={props.source} target="_blank" rel="noopener noreferrer">Quellode</a>
+                        <a className="btn btn-primary" href={props.source} target="_blank" rel="noopener noreferrer">Quellcode</a>
                     </div>
                 </Card.Body>
                 <Toast show={urlAvailable} onClose={closeToast} style={{ position: "fixed", zIndex: 999, top: 75, right: 20 }} >
