@@ -16,8 +16,9 @@ function SkillBars() {
                         <Col md={6}>
                             <h3>User Centric Development</h3>
                             {
-                                ucdSkills.map(skill => (
+                                ucdSkills.map((skill, i) => (
                                     <ProgressBar 
+                                        key={i}
                                         className="my-3"
                                         animated
                                         variant={skill.colour} 
@@ -30,8 +31,9 @@ function SkillBars() {
                         <Col md={6}>
                             <h3>Python</h3>
                             {
-                                pySkills.map(skill => (
+                                pySkills.map((skill, i) => (
                                     <ProgressBar 
+                                        key={i}
                                         className="my-3"
                                         animated
                                         variant={skill.colour} 
@@ -44,8 +46,9 @@ function SkillBars() {
                         <Col md={6}>
                             <h3>JavaScript</h3>
                             {
-                                jsSkills.map(skill => (
+                                jsSkills.map((skill, i) => (
                                     <ProgressBar 
+                                        key={i}
                                         className="my-3"
                                         animated
                                         variant={skill.colour} 
@@ -58,8 +61,9 @@ function SkillBars() {
                         <Col md={6}>
                             <h3>Databases</h3>
                             {
-                                dbSkills.map(skill => (
+                                dbSkills.map((skill, i) => (
                                     <ProgressBar 
+                                        key={i}
                                         className="my-3"
                                         animated
                                         variant={skill.colour} 
@@ -72,8 +76,9 @@ function SkillBars() {
                         <Col md={6}>
                             <h3>Services & Version Control</h3>
                             {
-                                versionControl.map(skill => (
+                                versionControl.map((skill, i) => (
                                     <ProgressBar 
+                                        key={i}
                                         className="my-3"
                                         animated
                                         variant={skill.colour} 
@@ -86,8 +91,9 @@ function SkillBars() {
                         <Col md={6}>
                             <h3>Other Skills</h3>
                             {
-                                otherTools.map(skill => (
+                                otherTools.map((skill, i) => (
                                     <ProgressBar 
+                                        key={i}
                                         className="my-3"
                                         animated
                                         variant={skill.colour} 
@@ -115,8 +121,9 @@ function SkillBars() {
                         <Col md={6}>
                             <h3>Benutzerzentrierte Entwicklung</h3>
                             {
-                                ucdSkills.map(skill => (
+                                ucdSkills.map((skill, i) => (
                                     <ProgressBar 
+                                        key={i}
                                         className="my-3"
                                         animated
                                         variant={skill.colour} 
@@ -129,8 +136,9 @@ function SkillBars() {
                         <Col md={6}>
                             <h3>Python</h3>
                             {
-                                pySkills.map(skill => (
+                                pySkills.map((skill, i) => (
                                     <ProgressBar 
+                                        key={i}
                                         className="my-3"
                                         animated
                                         variant={skill.colour} 
@@ -143,8 +151,9 @@ function SkillBars() {
                         <Col md={6}>
                             <h3>JavaScript</h3>
                             {
-                                jsSkills.map(skill => (
+                                jsSkills.map((skill, i) => (
                                     <ProgressBar 
+                                        key={i}
                                         className="my-3"
                                         animated
                                         variant={skill.colour} 
@@ -157,8 +166,9 @@ function SkillBars() {
                         <Col md={6}>
                             <h3>Datenbanken</h3>
                             {
-                                dbSkills.map(skill => (
+                                dbSkills.map((skill, i) => (
                                     <ProgressBar 
+                                        key={i}
                                         className="my-3"
                                         animated
                                         variant={skill.colour} 
@@ -171,8 +181,9 @@ function SkillBars() {
                         <Col md={6}>
                             <h3>Services & Versionskontrolle</h3>
                             {
-                                versionControl.map(skill => (
+                                versionControl.map((skill, i) => (
                                     <ProgressBar 
+                                        key={i}
                                         className="my-3"
                                         animated
                                         variant={skill.colour} 
@@ -185,8 +196,9 @@ function SkillBars() {
                         <Col md={6}>
                             <h3>Andere Fähigkeiten</h3>
                             {
-                                otherTools.map(skill => (
+                                otherTools.map((skill, i) => (
                                     <ProgressBar 
+                                        key={i}
                                         className="my-3"
                                         animated
                                         variant={skill.colour} 

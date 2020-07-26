@@ -15,9 +15,11 @@ function Banner() {
                         <h4 className="lead pl-1">HTML, CSS, JavaScript, Python, Django, React.js, Node.js, Flask, SQL, MongoDB</h4>
                     </Col>
                     <Col md={6} className="banner-img d-none d-md-block"></Col>
-                    <Col className="learn-more-button text-center d-none d-md-block">
-                        <p>Learn More of What I Do</p>
-                        <i className="fas fa-chevron-down"></i>
+                    <Col className="learn-more-button text-center d-none d-md-block pb-4">
+                        <a href="#about" className="learn-more-btn">
+                            <p>Learn More About What I Do</p>
+                            <i className="fas fa-chevron-down"></i>
+                        </a>
                     </Col>
 
                     <Col xs={12} className="col-12 d-md-none mt-4 mt-md-0 d-flex justify-content-center">
@@ -28,10 +30,10 @@ function Banner() {
                         <h1 className="display-3">Hi, I'm Rian!</h1>
                         <h2 className="display-4">Full-Stack Software Developer</h2>
                         <h4 className="lead pl-1">HTML, CSS, JavaScript, Python, Django, React.js, Node.js, Flask, SQL, MongoDB</h4>
-                        <div>
-                            <p>Learn More of What I Do</p>
+                        <a href="#about" className="learn-more-btn pb-4">
+                            <p>Learn More About What I Do</p>
                             <i className="fas fa-chevron-down"></i>
-                        </div>
+                        </a>
                     </Col>
                 </Row>
             </Container>
@@ -47,9 +49,11 @@ function Banner() {
                         <h4 className="lead pl-1">HTML, CSS, JavaScript, Python, Django, React.js, Node.js, Flask, SQL, MongoDB</h4>
                     </Col>
                     <Col md={6} className="banner-img d-none d-md-block"></Col>
-                    <Col className="learn-more-button text-center d-none d-md-block">
-                        <p>Lernen Sie mehr über mich</p>
-                        <i className="fas fa-chevron-down"></i>
+                    <Col className="learn-more-button text-center d-none d-md-block pb-4">
+                        <a href="#about" className="learn-more-btn">
+                            <p>Lernen Sie mehr über mich</p>
+                            <i className="fas fa-chevron-down"></i>
+                        </a>
                     </Col>
 
                     <Col xs={12} className="col-12 d-md-none mt-4 mt-md-0 d-flex justify-content-center">
@@ -61,8 +65,10 @@ function Banner() {
                         <h2 className="display-4">Full-Stack-Softwareentwickler</h2>
                         <h4 className="lead pl-1">HTML, CSS, JavaScript, Python, Django, React.js, Node.js, Flask, SQL, MongoDB</h4>
                         <div>
-                            <p>Lernen Sie mehr über mich</p>
-                            <i className="fas fa-chevron-down"></i>
+                            <a href="#about" className="learn-more-btn">
+                                <p className="pb-4">Lernen Sie mehr über mich</p>
+                                <i className="fas fa-chevron-down"></i>
+                            </a>
                         </div>
                     </Col>
                 </Row>

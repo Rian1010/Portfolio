@@ -29,8 +29,9 @@ function App() {
                 </Row>
                 <Row>
                     <Col className="grid-3">
-                      {websiteInfo.map(cardInfo => (
+                      {websiteInfo.map((cardInfo, i) => (
                         <Cards
+                          key={i}
                           image={ `bg ${cardInfo.img}` }
                           technologies={cardInfo.technologies}
                           title={cardInfo.title}
@@ -58,8 +59,9 @@ function App() {
                 </Row>
                 <Row>
                     <Col className="grid-3">
-                      {websiteInfo.map(cardInfo => (
+                      {websiteInfo.map((cardInfo, i) => (
                         <Cards
+                          key={i}
                           image={ `bg ${cardInfo.img}` }
                           technologies={cardInfo.technologies}
                           title={cardInfo.titel}
