@@ -5,6 +5,9 @@ body {
 }
 
 /* Navbar */
+.nav-footer-colour {
+  background-color: #54cdff;
+}
 
 .flag-de {
   width: 20px;
@@ -76,9 +79,8 @@ body {
 .fa-chevron-down {
   position: absolute;
   animation-name: arrow-anim;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
-  animation-delay: 0s;
   animation-direction: normal ; 
   animation-timing-function: ease-in-out; 
   animation-fill-mode: forwards;
@@ -192,5 +194,9 @@ body {
 }
 
 .footer-colour {
+  color: #333;
+}
+
+.footer-colour:hover {
   color: #333;
 }

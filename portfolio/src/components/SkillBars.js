@@ -14,7 +14,7 @@ function SkillBars() {
                     </Row>
                     <Row className="pt-5">
                         <Col md={6}>
-                            <h3>User Centric Development</h3>
+                            <h3 className="text-center">User Centric Development</h3>
                             {
                                 ucdSkills.map((skill, i) => (
                                     <ProgressBar 
@@ -29,7 +29,7 @@ function SkillBars() {
                             }
                         </Col>
                         <Col md={6}>
-                            <h3>Python</h3>
+                            <h3 className="text-center">Python</h3>
                             {
                                 pySkills.map((skill, i) => (
                                     <ProgressBar 
@@ -44,7 +44,7 @@ function SkillBars() {
                             }
                         </Col>
                         <Col md={6}>
-                            <h3>JavaScript</h3>
+                            <h3 className="text-center">JavaScript</h3>
                             {
                                 jsSkills.map((skill, i) => (
                                     <ProgressBar 
@@ -59,7 +59,7 @@ function SkillBars() {
                             }
                         </Col>
                         <Col md={6}>
-                            <h3>Databases</h3>
+                            <h3 className="text-center">Databases</h3>
                             {
                                 dbSkills.map((skill, i) => (
                                     <ProgressBar 
@@ -74,7 +74,7 @@ function SkillBars() {
                             }
                         </Col>
                         <Col md={6}>
-                            <h3>Services & Version Control</h3>
+                            <h3 className="text-center">Services & Version Control</h3>
                             {
                                 versionControl.map((skill, i) => (
                                     <ProgressBar 
@@ -89,7 +89,7 @@ function SkillBars() {
                             }
                         </Col>
                         <Col md={6}>
-                            <h3>Other Skills</h3>
+                            <h3 className="text-center">Other Skills</h3>
                             {
                                 otherTools.map((skill, i) => (
                                     <ProgressBar 
@@ -119,7 +119,7 @@ function SkillBars() {
                     </Row>
                     <Row className="pt-5">
                         <Col md={6}>
-                            <h3>Benutzerzentrierte Entwicklung</h3>
+                            <h3 className="text-center">Benutzerzentrierte Entwicklung</h3>
                             {
                                 ucdSkills.map((skill, i) => (
                                     <ProgressBar 
@@ -134,7 +134,7 @@ function SkillBars() {
                             }
                         </Col>
                         <Col md={6}>
-                            <h3>Python</h3>
+                            <h3 className="text-center">Python</h3>
                             {
                                 pySkills.map((skill, i) => (
                                     <ProgressBar 
@@ -149,7 +149,7 @@ function SkillBars() {
                             }
                         </Col>
                         <Col md={6}>
-                            <h3>JavaScript</h3>
+                            <h3 className="text-center">JavaScript</h3>
                             {
                                 jsSkills.map((skill, i) => (
                                     <ProgressBar 
@@ -164,7 +164,7 @@ function SkillBars() {
                             }
                         </Col>
                         <Col md={6}>
-                            <h3>Datenbanken</h3>
+                            <h3 className="text-center">Datenbanken</h3>
                             {
                                 dbSkills.map((skill, i) => (
                                     <ProgressBar 
@@ -179,7 +179,7 @@ function SkillBars() {
                             }
                         </Col>
                         <Col md={6}>
-                            <h3>Services & Versionskontrolle</h3>
+                            <h3 className="text-center">Services & Versionskontrolle</h3>
                             {
                                 versionControl.map((skill, i) => (
                                     <ProgressBar 
@@ -194,7 +194,7 @@ function SkillBars() {
                             }
                         </Col>
                         <Col md={6}>
-                            <h3>Andere Fähigkeiten</h3>
+                            <h3 className="text-center">Andere Fähigkeiten</h3>
                             {
                                 otherTools.map((skill, i) => (
                                     <ProgressBar 

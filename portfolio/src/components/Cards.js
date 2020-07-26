@@ -29,7 +29,7 @@ function Cards(props) {
         return (
             <Card style={{ width: '100%' }} className="mt-5">
                 <a onClick={showToast} variant="top" className={props.image} href={props.url} target="_blank" rel="noopener noreferrer"></a>
-                <Card.Body className="d-flex flex-column justify-content-between">
+                <Card.Body className="d-flex flex-column justify-content-between text-center">
                     <Card.Title>{props.title}</Card.Title>
                     <Card.Text>
                         {props.technologies}
@@ -56,7 +56,7 @@ function Cards(props) {
         return (
             <Card style={{ width: '100%' }} className="mt-5">
                 <a onClick={showToast} variant="top" className={props.image} href={props.url} target="_blank" rel="noopener noreferrer"></a>
-                <Card.Body className="d-flex flex-column justify-content-between">
+                <Card.Body className="d-flex flex-column justify-content-between text-center">
                     <Card.Title>{props.title}</Card.Title>
                     <Card.Text>
                         {props.technologies}
@@ -68,7 +68,6 @@ function Cards(props) {
                 </Card.Body>
                 <Toast show={urlAvailable} onClose={closeToast} style={{ position: "fixed", zIndex: 999, top: 75, right: 20 }} >
                     <Toast.Header>
-                    <img src="holder.js/20x20?text=%20" className="rounded mr-2" alt="" />
                     <strong className="mr-auto">Noch nicht verfügbar</strong>
                     </Toast.Header>
                     <Toast.Body>

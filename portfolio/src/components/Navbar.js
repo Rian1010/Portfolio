@@ -21,14 +21,14 @@ function Navigation() {
 
     if (window.location.pathname === "/" || window.location.pathname === "/Portfolio/") {
         return (
-            <Navbar style={navColour} expand="lg" bg="" variant="light" fixed="top">
+            <Navbar className="nav-footer-colour" expand="lg" bg="" variant="light" fixed="top">
                 <Navbar.Brand href="/">Rian</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto d-flex align-items-center">
-                        <Nav.Link href="#about">About</Nav.Link>
-                        <Nav.Link href="#examples">Work Examples</Nav.Link>
-                        <Nav.Link href="#skills">Skills</Nav.Link>
+                        <Nav.Link href="#about"><i class="far fa-user-circle"></i> About</Nav.Link>
+                        <Nav.Link href="#examples"><i class="fas fa-laptop-code"></i> Work Examples</Nav.Link>
+                        <Nav.Link href="#skills"><i class="fas fa-code"></i> Skills</Nav.Link>
                     </Nav>
                     <Nav className="ml-auto d-flex align-items-center">
                         <Nav.Link href="mailto:sunthbocusrian@gmail.com"><i className="far fa-envelope-open"></i> sunthbocusrian@gmail.com</Nav.Link>
@@ -49,9 +49,9 @@ function Navigation() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto d-flex align-items-center">
-                        <Nav.Link href="#about">Über Mich</Nav.Link>
-                        <Nav.Link href="#examples">Beispiele</Nav.Link>
-                        <Nav.Link href="#skills">Kompetenzen</Nav.Link>
+                        <Nav.Link href="#about"><i class="far fa-user-circle"></i> Über Mich</Nav.Link>
+                        <Nav.Link href="#examples"><i class="fas fa-laptop-code"></i> Beispiele</Nav.Link>
+                        <Nav.Link href="#skills"><i class="fas fa-code"></i> Kompetenzen</Nav.Link>
                     </Nav>
                     <Nav className="ml-auto d-flex align-items-center">
                         <Nav.Link href="mailto:sunthbocusrian@gmail.com"><i className="far fa-envelope-open"></i> sunthbocusrian@gmail.com</Nav.Link>

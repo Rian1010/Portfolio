@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 function Banner() {
     if (window.location.pathname === "/" || window.location.pathname === "/Portfolio/") {
         return ( 
-            <Container fluid>
+            <Container fluid className="pt-5">
                 <Row className="banner-row-1 d-flex align-items-center">
                     {/* Tablet sizes and above */}
                     <Col xs={12} md={6} className="d-none d-md-block flex-column pl-md-5 text-left">
@@ -27,8 +27,8 @@ function Banner() {
                         <div className="banner-img"></div>
                     </Col>
                     <Col xs={12} md={6} className="d-md-none flex-column d-flex justify-content-center align-items-left pl-md-5 text-center">
-                        <h1 className="display-3">Hi, I'm Rian!</h1>
-                        <h2 className="display-4">Full-Stack Software Developer</h2>
+                        <h1 className="display-4">Hi, I'm Rian!</h1>
+                        <h2>Full-Stack Software Developer</h2>
                         <h4 className="lead pl-1">HTML, CSS, JavaScript, Python, Django, React.js, Node.js, Flask, SQL, MongoDB</h4>
                         <a href="#about" className="learn-more-btn pb-4">
                             <p>Learn More About What I Do</p>
