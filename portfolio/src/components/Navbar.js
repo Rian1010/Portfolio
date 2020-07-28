@@ -22,12 +22,12 @@ function Navigation() {
     if (window.location.pathname === "/" || window.location.pathname === "/Portfolio/") {
         return (
             <Navbar className="nav-footer-colour" expand="lg" bg="" variant="light" fixed="top">
-                <Navbar.Brand href="/">Rian</Navbar.Brand>
+                <Navbar.Brand href="/">Rian Sunthbocus</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto d-flex align-items-center">
                         <Nav.Link href="#about"><i class="far fa-user-circle"></i> About</Nav.Link>
-                        <Nav.Link href="#examples"><i class="fas fa-laptop-code"></i> Work Examples</Nav.Link>
+                        <Nav.Link href="#examples"><i class="fas fa-laptop-code"></i> Project Examples</Nav.Link>
                         <Nav.Link href="#skills"><i class="fas fa-code"></i> Skills</Nav.Link>
                     </Nav>
                     <Nav className="ml-auto d-flex align-items-center">
@@ -45,12 +45,12 @@ function Navigation() {
     else if (window.location.pathname === "/de") {
         return (
             <Navbar expand="lg" bg="" variant="light" style={navColour} fixed="top">
-                <Navbar.Brand href="/de">Rian</Navbar.Brand>
+                <Navbar.Brand href="/de">Rian Sunthbocus</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto d-flex align-items-center">
                         <Nav.Link href="#about"><i class="far fa-user-circle"></i> Über Mich</Nav.Link>
-                        <Nav.Link href="#examples"><i class="fas fa-laptop-code"></i> Beispiele</Nav.Link>
+                        <Nav.Link href="#examples"><i class="fas fa-laptop-code"></i> Projekt Beispiele</Nav.Link>
                         <Nav.Link href="#skills"><i class="fas fa-code"></i> Kompetenzen</Nav.Link>
                     </Nav>
                     <Nav className="ml-auto d-flex align-items-center">

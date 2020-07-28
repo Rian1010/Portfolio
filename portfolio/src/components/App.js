@@ -24,7 +24,7 @@ function App() {
               <Container id="examples" className="py-5 d-flex flex-column justify-content-center align-items-center">
                 <Row>
                   <Col>
-                    <h2 className="display-4 text-center">Work Examples</h2>
+                    <h2 className="display-4 text-center">Project Examples</h2>
                   </Col>
                 </Row>
                 <Row>
@@ -55,7 +55,7 @@ function App() {
               <Container id="examples" className="py-5 d-flex flex-column justify-content-center align-items-center">
                 <Row>
                   <Col>
-                    <h2 className="display-4 text-center">Beispiele</h2>
+                    <h2 className="display-4 text-center">Projekt Beispiele</h2>
                   </Col>
                 </Row>
                 <Row>
@@ -78,7 +78,7 @@ function App() {
             </div>
           } />
 
-          <Route path="/Portfolio" exact render={props =>
+          <Route path="/Portfolio" render={props =>
             <div>
               <Navigation />
               <Banner />
