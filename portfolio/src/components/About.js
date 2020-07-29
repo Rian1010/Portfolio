@@ -57,7 +57,7 @@ function About() {
                         <Col xs={12} lg={6} className="text-center pt-4 pt-lg-0">
                             <p>
                                 Programmieren ist einer meiner größten Leidenschaften! Seit ich gelernt habe zu codieren, war ich 
-                                von responiven Gestaltungen von Websites bis zur Codierung ihrer Funktionalitäten mit 
+                                von responsiven Gestaltungen von Webseiten bis zur Codierung ihrer Funktionalitäten mit 
                                 Programmiersprachen, Bibliotheken und Frameworks fasziniert. Außerdem habe ich in einem Praktikum 
                                 Suchmaschinenoptimierung verwendet, um hoch in den Google-Suchergebnissen zu ranken.
                             </p>

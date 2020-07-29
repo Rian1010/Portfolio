@@ -22,7 +22,7 @@ function Navigation() {
     if (window.location.pathname === "/" || window.location.pathname === "/Portfolio/") {
         return (
             <Navbar className="nav-footer-colour" expand="lg" bg="" variant="light" fixed="top">
-                <Navbar.Brand href="/">Rian Sunthbocus</Navbar.Brand>
+                <Navbar.Brand href="/Portfolio/">Rian Sunthbocus</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto d-flex align-items-center">
