@@ -231,6 +231,27 @@ html, body {
   background-image: url('../img/germany-site.png');
 }
 
+.toast-position {
+  position: fixed !important; 
+  z-index: 999;
+  top: 75px;
+  right: 20px;
+}
+
+@media (min-width: 992px) {
+  .toast-position {
+    top: 110px;
+    right: 30px;
+  }
+}
+
+@media (min-width: 1200) {
+  .toast-position {
+    top: 75px;
+    right: 20px;
+  }
+}
+
 /* Footer */
 .footer-lists {
   list-style: none;

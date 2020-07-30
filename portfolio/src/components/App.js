@@ -7,11 +7,25 @@ import About from './About';
 import SkillBars from './SkillBars';
 import Footer from './Footer';
 import websiteInfo from '../websites';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Card, Toast } from 'react-bootstrap';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
 function App() {
+  const [urlAvailable, available] = useState(false);
+
+  function showToast(e) {
+      const link = e.target.getAttribute("href");
+      if (link === "") {
+          available(!urlAvailable);
+          e.preventDefault();
+      }
+  }
+
+  function closeToast() {
+      available(false);
+  }
+
   const [fadeInCard, fadeCardHandler] = useState(false);
   const refCard = useRef(null)
 
@@ -54,11 +68,23 @@ function App() {
                           title={cardInfo.title}
                           url={cardInfo.websiteURL}
                           source={cardInfo.sourceCode}
+                          click={showToast}
+                          toast={ urlAvailable ? "btn btn-danger" : "btn btn-primary"}
                         />
                         ))}
                       </Col>
                 </Row>
               </Container>
+              <Toast show={urlAvailable} onClose={closeToast} className="toast-position">
+                  <Toast.Header>
+                  <img src="holder.js/20x20?text=%20" className="rounded mr-2" alt="" />
+                  <strong className="mr-auto">Not Yet Available</strong>
+                  </Toast.Header>
+                  <Toast.Body>
+                      Sorry! The link to the website you are trying to reach is not yet
+                      available, but you can view the source code in the meantime.
+                  </Toast.Body>
+              </Toast>
               <SkillBars />
               <Footer />
             </div>
@@ -90,6 +116,15 @@ function App() {
                       </Col>
                 </Row>
               </Container>
+              <Toast show={urlAvailable} onClose={closeToast} style={{ position: "fixed", zIndex: 999, top: 75, right: 20 }} >
+                    <Toast.Header>
+                    <strong className="mr-auto">Noch nicht verfügbar</strong>
+                    </Toast.Header>
+                    <Toast.Body>
+                        Verzeihung! Der Link, den Sie erreichen möchten, ist zurzeit noch nicht verfügbar.
+                        Sie können jedoch den Quellcode in der Zwischenzeit besichtigen.
+                    </Toast.Body>
+                </Toast>
               <SkillBars />
               <Footer />
             </div>
