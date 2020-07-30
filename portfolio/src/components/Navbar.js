@@ -26,13 +26,13 @@ function Navigation() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto d-flex align-items-center">
-                        <Nav.Link href="#about"><i class="far fa-user-circle"></i> About</Nav.Link>
-                        <Nav.Link href="#examples"><i class="fas fa-laptop-code"></i> Project Examples</Nav.Link>
-                        <Nav.Link href="#skills"><i class="fas fa-code"></i> Skills</Nav.Link>
+                        <Nav.Link className="my-2" href="#about"><i class="far fa-user-circle"></i> About</Nav.Link>
+                        <Nav.Link className="my-2" href="#examples"><i class="fas fa-laptop-code"></i> Project Examples</Nav.Link>
+                        <Nav.Link className="my-2" href="#skills"><i class="fas fa-code"></i> Skills</Nav.Link>
                     </Nav>
                     <Nav className="ml-auto d-flex align-items-center">
-                        <Nav.Link href="mailto:sunthbocusrian@gmail.com"><i className="far fa-envelope-open"></i> sunthbocusrian@gmail.com</Nav.Link>
-                        <Nav.Link href="tel:+49 171 8011984"><i className="fas fa-phone"></i> +49 171 8011984</Nav.Link>
+                        <Nav.Link className="my-2" href="mailto:sunthbocusrian@gmail.com"><i className="far fa-envelope-open"></i> sunthbocusrian@gmail.com</Nav.Link>
+                        <Nav.Link className="my-2" href="tel:+49 171 8011984"><i className="fas fa-phone"></i> +49 171 8011984</Nav.Link>
                         <Link to="/de" className="btn d-flex flex-row align-items-center">
                             <div className="flag-de mr-2"></div>
                             <div>German</div>
@@ -49,13 +49,13 @@ function Navigation() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto d-flex align-items-center">
-                        <Nav.Link href="#about"><i class="far fa-user-circle"></i> Über Mich</Nav.Link>
-                        <Nav.Link href="#examples"><i class="fas fa-laptop-code"></i> Projekt Beispiele</Nav.Link>
-                        <Nav.Link href="#skills"><i class="fas fa-code"></i> Kompetenzen</Nav.Link>
+                        <Nav.Link className="my-2" href="#about"><i class="far fa-user-circle"></i> Über Mich</Nav.Link>
+                        <Nav.Link className="my-2" href="#examples"><i class="fas fa-laptop-code"></i> Projekt Beispiele</Nav.Link>
+                        <Nav.Link className="my-2" href="#skills"><i class="fas fa-code"></i> Kompetenzen</Nav.Link>
                     </Nav>
                     <Nav className="ml-auto d-flex align-items-center">
-                        <Nav.Link href="mailto:sunthbocusrian@gmail.com"><i className="far fa-envelope-open"></i> sunthbocusrian@gmail.com</Nav.Link>
-                        <Nav.Link href="tel:+49 171 8011984"><i className="fas fa-phone"></i> +49 171 8011984</Nav.Link>
+                        <Nav.Link className="my-2" href="mailto:sunthbocusrian@gmail.com"><i className="far fa-envelope-open"></i> sunthbocusrian@gmail.com</Nav.Link>
+                        <Nav.Link className="my-2" href="tel:+49 171 8011984"><i className="fas fa-phone"></i> +49 171 8011984</Nav.Link>
                         <Link to="/" className="btn d-flex flex-row align-items-center">
                             <div className="flag-en mr-2"></div>
                             <div>Englisch</div>

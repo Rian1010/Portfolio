@@ -3,6 +3,8 @@ import './App.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
 function About() {
+    
+
     if (window.location.pathname === "/" || window.location.pathname === "/Portfolio/") {
         return (
             <section className="blue-background pt-5" id="about">
@@ -15,8 +17,7 @@ function About() {
                         </Col>
                     </Row>
                     <Row className="py-3 py-md-5 d-flex align-items-center">
-                        <Col xs={12} lg={6} className="about-img"></Col>
-                        <Col xs={12} lg={6} className="text-center pt-4 pt-lg-0">
+                        <Col xs={12} className="text-center pt-4 pt-lg-0">
                             <p>
                                 Programming is one of my greatest passions! Ever since I learned how to code, I was captivated 
                                 from designing websites responsive coding their functionalities with programming languages, libraries 
@@ -53,8 +54,7 @@ function About() {
                         </Col>
                     </Row>
                     <Row className="py-3 py-md-5 d-flex align-items-center">
-                        <Col xs={12} lg={6} className="about-img"></Col>
-                        <Col xs={12} lg={6} className="text-center pt-4 pt-lg-0">
+                        <Col xs={12} className="text-center pt-4 pt-lg-0">
                             <p>
                                 Programmieren ist einer meiner größten Leidenschaften! Seit ich gelernt habe zu codieren, war ich 
                                 von responsiven Gestaltungen von Webseiten bis zur Codierung ihrer Funktionalitäten mit 
