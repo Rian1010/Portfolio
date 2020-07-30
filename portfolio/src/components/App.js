@@ -16,19 +16,14 @@ function App() {
   const refCard = useRef(null)
 
   useEffect(() => {
-      const heightCard = refCard.current.offsetHeight;
       window.addEventListener('scroll', fadeCardFunction);
       function fadeCardFunction () {
           const width = window.innerWidth;
-          const screenSizeHorizontal = 1055;
-          const screenSizeVericalCard = heightCard/1.5;
+          const screenSizeHorizontal = 992;
           if(width >= screenSizeHorizontal) {
-              if(window.scrollY >= 1150) {
+              if(window.scrollY >= 900) {
                   fadeCardHandler(true);
               }
-              // else if(window.scrollY < 100) {
-              //     fadeHandler(false);
-              // }
           } else {
               fadeCardHandler(true);
           }
@@ -43,7 +38,7 @@ function App() {
               <Navigation />
               <Banner />
               <About />
-              <Container id="examples" className={`py-5 d-flex flex-column justify-content-center align-items-center ${fadeInCard ? 'is-visible-card' : 'invisible-card'}`} ref={refCard}>
+              <Container id="examples" className={`py-5 d-flex flex-column justify-content-center align-items-center ${fadeInCard ? 'is-visible' : 'invisible-title'}`} ref={refCard}>
                 <Row>
                   <Col>
                     <h2 className="display-4 text-center">Project Examples</h2>
@@ -74,7 +69,7 @@ function App() {
               <Navigation />
               <Banner />
               <About />
-              <Container id="examples" className="py-5 d-flex flex-column justify-content-center align-items-center">
+              <Container id="examples" className={`py-5 d-flex flex-column justify-content-center align-items-center ${fadeInCard ? 'is-visible' : 'invisible-title'}`} ref={refCard}>
                 <Row>
                   <Col>
                     <h2 className="display-4 text-center">Projekt Beispiele</h2>
@@ -105,7 +100,7 @@ function App() {
               <Navigation />
               <Banner />
               <About />
-              <Container id="examples" className="py-5 d-flex flex-column justify-content-center align-items-center">
+              <Container id="examples" className={`py-5 d-flex flex-column justify-content-center align-items-center ${fadeInCard ? 'is-visible' : 'invisible-title'}`} ref={refCard}>
                 <Row>
                   <Col>
                     <h2 className="display-4 text-center">Work Examples</h2>

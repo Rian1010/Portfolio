@@ -17,7 +17,7 @@ function Banner() {
                     </Col>
                     <Col md={6} className="banner-img d-none d-md-block"></Col>
                     <Col className="learn-more-button text-center d-none d-md-block pb-4">
-                        <a href="#about" className="learn-more-btn">
+                        <a href="#learnMoreBtn" id="learnMoreBtn" className="learn-more-btn">
                             <p>Learn More About What I Do</p>
                             <i className="fas fa-chevron-down"></i>
                         </a>
@@ -65,7 +65,7 @@ function Banner() {
                         <h2 className="word-break">Full-Stack-Softwareentwickler</h2>
                         <h4 className="lead pl-1">HTML, CSS, JavaScript, Python, Django, React.js, Node.js, Flask, SQL, MongoDB</h4>
                         <div>
-                            <a href="#about" className="learn-more-btn">
+                            <a href="#learnMoreGerBtn" id="learnMoreGerBtn" className="learn-more-btn">
                                 <p className="pb-4">Lernen Sie mehr über mich</p>
                                 <i className="fas fa-chevron-down"></i>
                             </a>
