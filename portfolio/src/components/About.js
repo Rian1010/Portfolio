@@ -1,14 +1,37 @@
-import React from 'react';
+import * as React from 'react'
+import { useState, useEffect, useRef } from 'react';
 import './App.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
 function About() {
+    const [fadeIn, fadeHandler] = useState(false);
+    const ref = useRef(null)
     
+    useEffect(() => {
+        const height = ref.current.clientHeight;
+        window.addEventListener('scroll', fadeFunction);
+        function fadeFunction () {
+            const width = window.innerWidth;
+            const screenSizeHorizontal = 1055;
+            const screenSizeVerical = height / 2
+            if(width >= screenSizeHorizontal) {
+                if(window.scrollY >= screenSizeVerical) {
+                    fadeHandler(true);
+                }
+                else if(window.scrollY < 100) {
+                    fadeHandler(false);
+                }
+            } else {
+                fadeHandler(true);
+            }
+        }
+    });
 
     if (window.location.pathname === "/" || window.location.pathname === "/Portfolio/") {
         return (
             <section className="blue-background pt-5" id="about">
-                <Container>
+                {/* <Container className={`fade-in ${fadeIn ? 'is-visible' : ''}`} ref={domRef}> */}
+                <Container className={`py-3 ${fadeIn ? 'is-visible' : 'invisible'}`} ref={ref}>
                     <Row className="text-center">
                         <Col>
                             <h2 className="display-4">
@@ -17,7 +40,7 @@ function About() {
                         </Col>
                     </Row>
                     <Row className="py-3 py-md-5 d-flex align-items-center">
-                        <Col xs={12} className="text-center pt-4 pt-lg-0">
+                        <Col xs={12}  className="text-center pt-4 pt-lg-0">
                             <p>
                                 Programming is one of my greatest passions! Ever since I learned how to code, I was captivated 
                                 from designing websites responsive coding their functionalities with programming languages, libraries 
@@ -45,7 +68,7 @@ function About() {
     else if (window.location.pathname === "/de") {
         return (
             <section className="blue-background pt-5" id="about">
-                <Container>
+                <Container className={`py-3 ${fadeIn ? 'is-visible' : 'invisible'}`} ref={ref}>
                     <Row className="text-center">
                         <Col>
                             <h2 className="display-4">

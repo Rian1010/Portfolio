@@ -26,9 +26,9 @@ function Navigation() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto d-flex align-items-center">
-                        <Nav.Link className="my-2" href="#about"><i class="far fa-user-circle"></i> About</Nav.Link>
-                        <Nav.Link className="my-2" href="#examples"><i class="fas fa-laptop-code"></i> Project Examples</Nav.Link>
-                        <Nav.Link className="my-2" href="#skills"><i class="fas fa-code"></i> Skills</Nav.Link>
+                        <Nav.Link className="my-2" href="#about"><i className="far fa-user-circle"></i> About</Nav.Link>
+                        <Nav.Link className="my-2" href="#examples"><i className="fas fa-laptop-code"></i> Project Examples</Nav.Link>
+                        <Nav.Link className="my-2" href="#skills"><i className="fas fa-code"></i> Skills</Nav.Link>
                     </Nav>
                     <Nav className="ml-auto d-flex align-items-center">
                         <Nav.Link className="my-2" href="mailto:sunthbocusrian@gmail.com"><i className="far fa-envelope-open"></i> sunthbocusrian@gmail.com</Nav.Link>

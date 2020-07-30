@@ -1,4 +1,5 @@
-import React from 'react';
+import * as React from 'react'
+import { useState, useEffect, useRef } from 'react';
 import Navigation from './Navbar';
 import Banner from './Banner';
 import Cards from './Cards';
@@ -10,8 +11,29 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
-
 function App() {
+  const [fadeInCard, fadeCardHandler] = useState(false);
+  const refCard = useRef(null)
+
+  useEffect(() => {
+      const heightCard = refCard.current.offsetHeight;
+      window.addEventListener('scroll', fadeCardFunction);
+      function fadeCardFunction () {
+          const width = window.innerWidth;
+          const screenSizeHorizontal = 1055;
+          const screenSizeVericalCard = heightCard/1.5;
+          if(width >= screenSizeHorizontal) {
+              if(window.scrollY >= 1150) {
+                  fadeCardHandler(true);
+              }
+              // else if(window.scrollY < 100) {
+              //     fadeHandler(false);
+              // }
+          } else {
+              fadeCardHandler(true);
+          }
+      }
+  });
   return (
     <div className="App">
       <Router>
@@ -21,7 +43,7 @@ function App() {
               <Navigation />
               <Banner />
               <About />
-              <Container id="examples" className="py-5 d-flex flex-column justify-content-center align-items-center">
+              <Container id="examples" className={`py-5 d-flex flex-column justify-content-center align-items-center ${fadeInCard ? 'is-visible-card' : 'invisible-card'}`} ref={refCard}>
                 <Row>
                   <Col>
                     <h2 className="display-4 text-center">Project Examples</h2>

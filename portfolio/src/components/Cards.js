@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import * as React from 'react'
+import { useState } from 'react';
 import { Card, Toast } from 'react-bootstrap';
 import './App.css';
 
@@ -17,17 +18,10 @@ function Cards(props) {
         available(false);
     }
 
-    // const [colourChange, colourFunction] = useState(false);
-    // let thelink = props.url
-    // const link = thelink.getAttribute("href");
-    // if (link === "") {
-    //     return colourChange(true)
-    // }
-
 
     if (window.location.pathname === "/" || window.location.pathname === "/Portfolio/") {
         return (
-            <Card style={{ width: '100%' }} className="mt-5">
+            <Card style={{ width: '100%'}} className="mt-5">
                 <a onClick={showToast} variant="top" className={props.image} href={props.url} target="_blank" rel="noopener noreferrer"></a>
                 <Card.Body className="d-flex flex-column justify-content-between text-center">
                     <Card.Title>{props.title}</Card.Title>

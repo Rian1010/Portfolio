@@ -99,7 +99,7 @@ body {
 }
 
 /* About */
-.about-img {
+/* .about-img {
   width: 100%;
   height: 300px;
   background-image: url('../img/about-picture.jpg');
@@ -112,10 +112,42 @@ body {
   .about-img {
     height: 400px
   }
+} */
+/* .invisible {
+  opacity: 1;
+  transform: translateX(0);
+  visibility: visible;
+} */
+
+@media (min-width: 1055px) {
+  .invisible {
+    opacity: 0;
+    transform: translateX(5vh);
+    visibility: hidden;
+  }
+  .is-visible {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+    visibility: visible;
+  }
+
+  .invisible-card {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+  }
+  .is-visible-card {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+    visibility: visible;
+  }
 }
 
 .blue-background {
   background-color: #ecfdff;
+  max-width: 100%;
 }
 
 /* Cards */
