@@ -7,7 +7,7 @@ import About from './About';
 import SkillBars from './SkillBars';
 import Footer from './Footer';
 import websiteInfo from '../websites';
-import { Container, Row, Col, Card, Toast } from 'react-bootstrap';
+import { Container, Row, Col, Toast } from 'react-bootstrap';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 

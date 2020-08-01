@@ -105,7 +105,7 @@ function SkillBars() {
                                 ))
                             }
                         </Col>
-                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-left'} ref={ref}>
+                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-right'} ref={ref}>
                             <h3 className="text-center">Other Skills</h3>
                             {
                                 otherTools.map((skill, i) => (

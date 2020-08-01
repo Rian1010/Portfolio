@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { useState, useEffect, useRef } from 'react';
-import { Card, Toast } from 'react-bootstrap';
+import { useState } from 'react';
+import { Card } from 'react-bootstrap';
 import './App.css';
 
 function Cards(props) {
