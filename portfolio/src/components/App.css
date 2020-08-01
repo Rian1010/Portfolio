@@ -10,6 +10,14 @@ html, body {
   background-color: #54cdff;
 }
 
+.lang-btn {
+  color: rgba(0,0,0,.6);
+}
+
+.lang-btn:hover {
+  color: rgba(0,0,0,.8);
+}
+
 .flag-de {
   width: 20px;
   height: 20px;

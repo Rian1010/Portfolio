@@ -33,7 +33,7 @@ function Navigation() {
                     <Nav className="ml-auto d-flex align-items-center">
                         <Nav.Link className="my-2" href="mailto:sunthbocusrian@gmail.com"><i className="far fa-envelope-open"></i> sunthbocusrian@gmail.com</Nav.Link>
                         <Nav.Link className="my-2" href="tel:+49 171 8011984"><i className="fas fa-phone"></i> +49 171 8011984</Nav.Link>
-                        <Link to="/de" className="btn d-flex flex-row align-items-center">
+                        <Link to="/de" className="btn lang-btn d-flex flex-row align-items-center">
                             <div className="flag-de mr-2"></div>
                             <div>German</div>
                         </Link>
@@ -56,7 +56,7 @@ function Navigation() {
                     <Nav className="ml-auto d-flex align-items-center">
                         <Nav.Link className="my-2" href="mailto:sunthbocusrian@gmail.com"><i className="far fa-envelope-open"></i> sunthbocusrian@gmail.com</Nav.Link>
                         <Nav.Link className="my-2" href="tel:+49 171 8011984"><i className="fas fa-phone"></i> +49 171 8011984</Nav.Link>
-                        <Link to="/" className="btn d-flex flex-row align-items-center">
+                        <Link to="/" className="btn lang-btn d-flex flex-row align-items-center">
                             <div className="flag-en mr-2"></div>
                             <div>Englisch</div>
                         </Link>
