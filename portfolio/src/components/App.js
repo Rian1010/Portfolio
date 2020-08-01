@@ -52,7 +52,7 @@ function App() {
               <Navigation />
               <Banner />
               <About />
-              <Container id="examples" className={`py-5 d-flex flex-column justify-content-center align-items-center ${fadeInCard ? 'is-visible' : 'invisible-title'}`} ref={refCard}>
+              <Container id="examples" className={`py-5 d-flex flex-column justify-content-center align-items-center ${fadeInCard ? 'is-visible' : 'invisible-card'}`} ref={refCard}>
                 <Row>
                   <Col>
                     <h2 className="display-4 text-center">Project Examples</h2>
@@ -69,7 +69,6 @@ function App() {
                           url={cardInfo.websiteURL}
                           source={cardInfo.sourceCode}
                           click={showToast}
-                          toast={ urlAvailable ? "btn btn-danger" : "btn btn-primary"}
                         />
                         ))}
                       </Col>
@@ -95,7 +94,7 @@ function App() {
               <Navigation />
               <Banner />
               <About />
-              <Container id="examples" className={`py-5 d-flex flex-column justify-content-center align-items-center ${fadeInCard ? 'is-visible' : 'invisible-title'}`} ref={refCard}>
+              <Container id="examples" className={`py-5 d-flex flex-column justify-content-center align-items-center ${fadeInCard ? 'is-visible' : 'invisible-card'}`} ref={refCard}>
                 <Row>
                   <Col>
                     <h2 className="display-4 text-center">Projekt Beispiele</h2>
@@ -111,6 +110,7 @@ function App() {
                           title={cardInfo.titel}
                           url={cardInfo.websiteURL}
                           source={cardInfo.sourceCode}
+                          click={showToast}
                         />
                         ))}
                       </Col>
@@ -135,7 +135,7 @@ function App() {
               <Navigation />
               <Banner />
               <About />
-              <Container id="examples" className={`py-5 d-flex flex-column justify-content-center align-items-center ${fadeInCard ? 'is-visible' : 'invisible-title'}`} ref={refCard}>
+              <Container id="examples" className={`py-5 d-flex flex-column justify-content-center align-items-center ${fadeInCard ? 'is-visible' : 'invisible-card'}`} ref={refCard}>
                 <Row>
                   <Col>
                     <h2 className="display-4 text-center">Work Examples</h2>
@@ -151,6 +151,7 @@ function App() {
                           title={cardInfo.title}
                           url={cardInfo.websiteURL}
                           source={cardInfo.sourceCode}
+                          click={showToast}
                         />
                         ))}
                       </Col>

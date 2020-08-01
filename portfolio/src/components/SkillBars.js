@@ -5,7 +5,7 @@ import { jsSkills, pySkills, dbSkills, ucdSkills, versionControl, otherTools } f
 
 function SkillBars() {
     const [fadeInSkills, fadeSkillsHandler] = useState(false);
-    const refCard = useRef(null)
+    const ref = useRef(null)
     
     useEffect(() => {
         window.addEventListener('scroll', fadeSkillsFunction);
@@ -16,8 +16,6 @@ function SkillBars() {
                 if(window.scrollY >= 2000) {
                     fadeSkillsHandler(true);
                 }
-            } else {
-                fadeSkillsHandler(true);
             }
         }
     });
@@ -26,13 +24,13 @@ function SkillBars() {
         return (
             <section className="blue-background py-5" id="skills">
                 <Container>
-                    <Row className={`text-center ${fadeInSkills ? 'is-visible' : 'invisible-title'}`} ref={refCard}>
+                    <Row className={`text-center ${fadeInSkills ? 'is-visible' : 'invisible-title'}`} ref={ref}>
                         <Col>
                             <h2 className="display-4">Skills</h2>
                         </Col>
                     </Row>
                     <Row className="pt-5">
-                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-left'} ref={refCard}>
+                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-left'} ref={ref}>
                             <h3 className="text-center">User Centric Development</h3>
                             {
                                 ucdSkills.map((skill, i) => (
@@ -47,7 +45,7 @@ function SkillBars() {
                                 ))
                             }
                         </Col>
-                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-right'} ref={refCard}>
+                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-right'} ref={ref}>
                             <h3 className="text-center">Python</h3>
                             {
                                 pySkills.map((skill, i) => (
@@ -62,7 +60,7 @@ function SkillBars() {
                                 ))
                             }
                         </Col>
-                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-left'} ref={refCard}>
+                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-left'} ref={ref}>
                             <h3 className="text-center">JavaScript</h3>
                             {
                                 jsSkills.map((skill, i) => (
@@ -77,7 +75,7 @@ function SkillBars() {
                                 ))
                             }
                         </Col>
-                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-right'} ref={refCard}>
+                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-right'} ref={ref}>
                             <h3 className="text-center">Databases</h3>
                             {
                                 dbSkills.map((skill, i) => (
@@ -92,7 +90,7 @@ function SkillBars() {
                                 ))
                             }
                         </Col>
-                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-left'} ref={refCard}>
+                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-left'} ref={ref}>
                             <h3 className="text-center">Services & Version Control</h3>
                             {
                                 versionControl.map((skill, i) => (
@@ -107,7 +105,7 @@ function SkillBars() {
                                 ))
                             }
                         </Col>
-                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-left'} ref={refCard}>
+                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-left'} ref={ref}>
                             <h3 className="text-center">Other Skills</h3>
                             {
                                 otherTools.map((skill, i) => (
@@ -131,13 +129,13 @@ function SkillBars() {
         return (
             <section className="blue-background py-5" id="skills">
                 <Container>
-                    <Row className={`text-center ${fadeInSkills ? 'is-visible' : 'invisible-title'}`} ref={refCard}>
+                    <Row className={`text-center ${fadeInSkills ? 'is-visible' : 'invisible-title'}`} ref={ref}>
                         <Col>
                             <h2 className="display-4 word-break">Kompetenzen</h2>
                         </Col>
                     </Row>
                     <Row className="pt-5">
-                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-left'} ref={refCard}>
+                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-left'} ref={ref}>
                             <h3 className="text-center">Benutzerzentrierte Entwicklung</h3>
                             {
                                 ucdSkills.map((skill, i) => (
@@ -152,7 +150,7 @@ function SkillBars() {
                                 ))
                             }
                         </Col>
-                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-right'} ref={refCard}>
+                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-right'} ref={ref}>
                             <h3 className="text-center">Python</h3>
                             {
                                 pySkills.map((skill, i) => (
@@ -167,7 +165,7 @@ function SkillBars() {
                                 ))
                             }
                         </Col>
-                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-left'} ref={refCard}>
+                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-left'} ref={ref}>
                             <h3 className="text-center">JavaScript</h3>
                             {
                                 jsSkills.map((skill, i) => (
@@ -182,7 +180,7 @@ function SkillBars() {
                                 ))
                             }
                         </Col>
-                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-right'} ref={refCard}>
+                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-right'} ref={ref}>
                             <h3 className="text-center">Datenbanken</h3>
                             {
                                 dbSkills.map((skill, i) => (
@@ -197,7 +195,7 @@ function SkillBars() {
                                 ))
                             }
                         </Col>
-                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-left'} ref={refCard}>
+                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-left'} ref={ref}>
                             <h3 className="text-center">Services & Versionskontrolle</h3>
                             {
                                 versionControl.map((skill, i) => (
@@ -212,7 +210,7 @@ function SkillBars() {
                                 ))
                             }
                         </Col>
-                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-right'} ref={refCard}>
+                        <Col md={6} className={fadeInSkills ? 'is-visible' : 'invisible-right'} ref={ref}>
                             <h3 className="text-center">Andere Fähigkeiten</h3>
                             {
                                 otherTools.map((skill, i) => (

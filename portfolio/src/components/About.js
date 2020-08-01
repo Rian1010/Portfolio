@@ -18,8 +18,6 @@ function About() {
                 if(window.scrollY >= screenSizeVerical) {
                     fadeHandler(true);
                 }
-            } else {
-                fadeHandler(true);
             }
         }
     });

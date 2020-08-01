@@ -144,7 +144,14 @@ html, body {
   /* Animation from below for cards */
   .invisible-card {
     opacity: 0;
-    transform: translateY(20vh);
+    transform: translateY(15vh);
+    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+    visibility: hidden;
+  }
+  /* Animation from above */
+  .invisible-down {
+    opacity: 0;
+    transform: translateY(-3vh);
     transition: opacity 0.6s ease-out, transform 1.2s ease-out;
     visibility: hidden;
   }
