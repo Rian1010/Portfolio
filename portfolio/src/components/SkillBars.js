@@ -13,7 +13,7 @@ function SkillBars() {
             const width = window.innerWidth;
             const screenSizeHorizontal = 992;
             if(width >= screenSizeHorizontal) {
-                if(window.scrollY >= 2000) {
+                if(window.scrollY >= 2300) {
                     fadeSkillsHandler(true);
                 }
             }
@@ -27,6 +27,15 @@ function SkillBars() {
                     <Row className={`text-center ${fadeInSkills ? 'is-visible' : 'invisible-title'}`} ref={ref}>
                         <Col>
                             <h2 className="display-4">Skills</h2>
+                        </Col>
+                    </Row>
+                    <Row className={fadeInSkills ? 'is-visible' : 'invisible-title'}>
+                        <Col>
+                            <p className="text-center">
+                                I enjoy working with all of the skills listed below a lot, but I especially like JavaScript and 
+                                Python, as these require the most effort for problem solving and different ideas to get things 
+                                to work. In fact, this website was made using React.js.
+                            </p>
                         </Col>
                     </Row>
                     <Row className="pt-5">
@@ -132,6 +141,15 @@ function SkillBars() {
                     <Row className={`text-center ${fadeInSkills ? 'is-visible' : 'invisible-title'}`} ref={ref}>
                         <Col>
                             <h2 className="display-4 word-break">Kompetenzen</h2>
+                        </Col>
+                    </Row>
+                    <Row className={fadeInSkills ? 'is-visible' : 'invisible-title'}>
+                        <Col>
+                            <p className="text-center">
+                                Ich arbeite sehr gerne mit all den unten angezeigten Fähigkeiten, aber ich mag besonders JavaScript und
+                                Python, da diese am meisten Mühe für Problemlösungen und verschiedene Ideen erfordern, um Sachen
+                                ins Laufen zu bringen. Tatsächlich wurde diese Website mit React.js erstellt.
+                            </p>
                         </Col>
                     </Row>
                     <Row className="pt-5">

@@ -35,7 +35,7 @@ function App() {
           const width = window.innerWidth;
           const screenSizeHorizontal = 992;
           if(width >= screenSizeHorizontal) {
-              if(window.scrollY >= 900) {
+              if(window.scrollY >= 1100) {
                   fadeCardHandler(true);
               }
           } else {
