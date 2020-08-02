@@ -28,7 +28,7 @@ function Banner() {
                     <Col xs={12} md={6} className={`d-none d-md-block flex-column pl-md-5 text-left ${fadeInSkills ? 'is-visible' : 'invisible-left'}`} ref={ref}>
                         <h1 className="display-1">Hi, I'm Rian!</h1>
                         <h2 className="display-4">Full-Stack Software Developer</h2>
-                        <h4 className="lead pl-1">HTML, CSS, JavaScript, Python, Django, React.js, Node.js, Flask, SQL, MongoDB</h4>
+                        <h4 className="lead pl-1">HTML, CSS, JavaScript, Python, Django, React.js, Node.js, jQuery, Flask, SQL, MongoDB, AWS</h4>
                     </Col>
                     <Col md={6} className={`banner-img d-none d-md-block ${fadeInSkills ? 'is-visible' : 'invisible-title'}`} ref={ref}></Col>
                     <Col className={`learn-more-button text-center d-none d-md-block pb-4 ${fadeInSkills ? 'is-visible' : 'invisible-down'}`} ref={ref}>
@@ -44,7 +44,7 @@ function Banner() {
                     <Col xs={12} md={6} className="d-md-none flex-column d-flex justify-content-center align-items-left pl-md-5 text-center">
                         <h1 className="display-4">Hi, I'm Rian!</h1>
                         <h2>Full-Stack Software Developer</h2>
-                        <h4 className="lead pl-1">HTML, CSS, JavaScript, Python, Django, React.js, Node.js, Flask, SQL, MongoDB</h4>
+                        <h4 className="lead pl-1">HTML, CSS, JavaScript, Python, Django, React.js, Node.js, jQuery, Flask, SQL, MongoDB, AWS</h4>
                         <a href="#about" className="learn-more-btn pb-4">
                             <p>Learn More About What I Do</p>
                             <i className="fas fa-chevron-down"></i>
@@ -62,7 +62,7 @@ function Banner() {
                     <Col xs={12} md={6} className={`d-none d-md-block flex-column pl-md-5 text-left ${fadeInSkills ? 'is-visible' : 'invisible-left'}`} ref={ref}>
                         <h1 className="display-1">Hi, ich bin Rian!</h1>
                         <h2 className="display-4 word-break">Full-Stack-Softwareentwickler</h2>
-                        <h4 className="lead pl-1">HTML, CSS, JavaScript, Python, Django, React.js, Node.js, Flask, SQL, MongoDB</h4>
+                        <h4 className="lead pl-1">HTML, CSS, JavaScript, Python, Django, React.js, Node.js, jQuery, Flask, SQL, MongoDB, AWS</h4>
                     </Col>
                     <Col md={6} className={`banner-img d-none d-md-block ${fadeInSkills ? 'is-visible' : 'invisible-title'}`} ref={ref}></Col>
                     <Col className={`learn-more-button text-center d-none d-md-block pb-4 ${fadeInSkills ? 'is-visible' : 'invisible-down'}`} ref={ref}>
@@ -78,7 +78,7 @@ function Banner() {
                     <Col xs={12} md={6} className="d-md-none flex-column d-flex justify-content-center align-items-left pl-md-5 text-center">
                         <h1 className="display-4">Hi, ich bin Rian!</h1>
                         <h2 className="word-break">Full-Stack-Softwareentwickler</h2>
-                        <h4 className="lead pl-1">HTML, CSS, JavaScript, Python, Django, React.js, Node.js, Flask, SQL, MongoDB</h4>
+                        <h4 className="lead pl-1">HTML, CSS, JavaScript, Python, Django, React.js, Node.js, jQuery, Flask, SQL, MongoDB, AWS</h4>
                         <div>
                             <a href="#learnMoreGerBtn" id="learnMoreGerBtn" className="learn-more-btn">
                                 <p className="pb-4">Lernen Sie mehr über mich</p>

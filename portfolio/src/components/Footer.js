@@ -1,5 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import Resume from '../resumes/Resume.pdf';
+import Lebenslauf from '../resumes/Lebenslauf.pdf'
 
 function Footer() {
     if (window.location.pathname === "/" || window.location.pathname === "/Portfolio/") {
@@ -16,7 +18,7 @@ function Footer() {
                     <Col xs={12} md={4}>
                         <h2>Resume</h2>
                         <ul className="p-0">
-                            <li className="footer-lists"><a className="footer-colour" href="tel:+49 171 8011984"><i className="fa fa-download"></i> Download Resume</a></li>     
+                            <li className="footer-lists"><a className="footer-colour" href={Resume} target="_blank" rel="noopener noreferrer"><i className="fa fa-download"></i> Download Resume</a></li>     
                         </ul>
                     </Col>
                     <Col xs={12} md={4}>
@@ -44,7 +46,7 @@ function Footer() {
                     <Col xs={12} md={4}>
                         <h2>Lebenslauf</h2>
                         <ul className="p-0">
-                            <li className="footer-lists"><a className="footer-colour" href="tel:+49 171 8011984"><i className="fa fa-download"></i> Lebenslauf herunterladen</a></li>     
+                            <li className="footer-lists"><a className="footer-colour" href={Lebenslauf} target="_blank" rel="noopener noreferrer"><i className="fa fa-download"></i> Lebenslauf herunterladen</a></li>     
                         </ul>
                     </Col>
                     <Col xs={12} md={4}>
