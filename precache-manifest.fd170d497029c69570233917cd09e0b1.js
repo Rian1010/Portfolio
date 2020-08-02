@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "769f2b8711a53f7216b56de444ac9d20",
+    "revision": "efebda22c7a3fe0a80c4b5e1790f968a",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "f25a89866d09ca94d005",
-    "url": "/Portfolio/static/css/main.ebaa8b8d.chunk.css"
+    "revision": "04dd16800482dd731dd8",
+    "url": "/Portfolio/static/css/main.c2358829.chunk.css"
   },
   {
     "revision": "268542a35a3e66a525c5",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.f3a61a8d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f25a89866d09ca94d005",
-    "url": "/Portfolio/static/js/main.702aa2a5.chunk.js"
+    "revision": "04dd16800482dd731dd8",
+    "url": "/Portfolio/static/js/main.edf9c63d.chunk.js"
   },
   {
     "revision": "b83a37198ba343383876",
     "url": "/Portfolio/static/js/runtime-main.e440ee5a.js"
+  },
+  {
+    "revision": "d3497e9e4760776d2c64777ba056f936",
+    "url": "/Portfolio/static/media/Diploma.d3497e9e.png"
   },
   {
     "revision": "51dd4679d4622453748cd1be6c8dbe3c",
