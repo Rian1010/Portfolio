@@ -45,7 +45,7 @@ function Navigation() {
     else if (window.location.pathname === "/Portfolio/de") {
         return (
             <Navbar expand="lg" bg="" variant="light" style={navColour} fixed="top">
-                <Navbar.Brand href="/Portfolio/de">Rian Sunthbocus</Navbar.Brand>
+                <Navbar.Brand href="/Portfolio/">Rian Sunthbocus</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto d-flex align-items-center">
