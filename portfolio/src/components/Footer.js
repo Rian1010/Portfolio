@@ -32,7 +32,7 @@ function Footer() {
             </Container>
         );
     }
-    else if (window.location.pathname === "/de") {
+    else if (window.location.pathname === "/Portfolio/de") {
         return (
             <Container fluid className="py-5 nav-footer-colour">
                 <Row className="text-center">

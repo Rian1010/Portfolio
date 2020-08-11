@@ -54,7 +54,7 @@ function Banner() {
             </Container>
         );
     }
-    else if (window.location.pathname === "/de") {
+    else if (window.location.pathname === "/Portfolio/de") {
         return ( 
             <Container fluid className="mt-5">
                 <Row className="banner-row-1 d-flex align-items-center">

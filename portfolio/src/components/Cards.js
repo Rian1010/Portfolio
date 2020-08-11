@@ -35,7 +35,7 @@ function Cards(props) {
             </Card>
         );
     }
-    else if (window.location.pathname === "/de") {
+    else if (window.location.pathname === "/Portfolio/de") {
         return (
             <Card style={{ width: '100%' }} className="mt-5">
                 <a onClick={props.click} variant="top" className={props.image} href={props.url} target="_blank" rel="noopener noreferrer"></a>

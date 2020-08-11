@@ -134,7 +134,7 @@ function SkillBars() {
             </section>
         );
     }
-    else if (window.location.pathname === "/de") {
+    else if (window.location.pathname === "/Portfolio/de") {
         return (
             <section className="blue-background py-5" id="skills">
                 <Container>

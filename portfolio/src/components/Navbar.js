@@ -33,7 +33,7 @@ function Navigation() {
                     <Nav className="ml-auto d-flex align-items-center">
                         <Nav.Link className="my-2" href="mailto:sunthbocusrian@gmail.com"><i className="far fa-envelope-open"></i> sunthbocusrian@gmail.com</Nav.Link>
                         <Nav.Link className="my-2" href="tel:+49 171 8011984"><i className="fas fa-phone"></i> +49 171 8011984</Nav.Link>
-                        <Link to="/de" className="btn lang-btn d-flex flex-row align-items-center">
+                        <Link to="/Portfolio/de" className="btn lang-btn d-flex flex-row align-items-center">
                             <div className="flag-de mr-2"></div>
                             <div>German</div>
                         </Link>
@@ -42,10 +42,10 @@ function Navigation() {
             </Navbar>  
         );
     }
-    else if (window.location.pathname === "/de") {
+    else if (window.location.pathname === "/Portfolio/de") {
         return (
             <Navbar expand="lg" bg="" variant="light" style={navColour} fixed="top">
-                <Navbar.Brand href="/de">Rian Sunthbocus</Navbar.Brand>
+                <Navbar.Brand href="/Portfolio/de">Rian Sunthbocus</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto d-flex align-items-center">

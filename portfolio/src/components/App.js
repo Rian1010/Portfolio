@@ -89,7 +89,7 @@ function App() {
             </div>
           } />
 
-          <Route path="/de" exact render={props =>
+          <Route path="/Portfolio/de" exact render={props =>
             <div>
               <Navigation />
               <Banner />

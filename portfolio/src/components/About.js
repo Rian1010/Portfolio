@@ -62,7 +62,7 @@ function About() {
             </section>
         );
     }
-    else if (window.location.pathname === "/de") {
+    else if (window.location.pathname === "/Portfolio/de") {
         return (
             <section className="blue-background pt-5" id="about">
                 <Container className="py-3">
