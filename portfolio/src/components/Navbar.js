@@ -6,19 +6,8 @@ import { Link } from 'react-router-dom';
 function Navigation() {
     const navColour = {
         backgroundColor: "#54cdff",
-        // backgroundColor: window.scrollY > 10 ? "#54cdff" : "transparent",
     }
-    // function navTransform() {
-    //     let scrollPos = 0
-    //     this.scrollListener = document.addEventListener("scroll", e => {
-    //         scrollPos = e.scrollingElement.scrollTop;
-    //         console.log(scrollPos);
-    //         if (scrollPos > 1) {
-    //             return navColour;
-    //         }
-    //     })
-    // }
-
+   
     if (window.location.pathname === "/" || window.location.pathname === "/Portfolio/") {
         return (
             <Navbar className="nav-footer-colour" expand="lg" bg="" variant="light" fixed="top">
