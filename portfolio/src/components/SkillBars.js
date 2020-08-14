@@ -146,9 +146,9 @@ function SkillBars() {
                     <Row className={fadeInSkills ? 'is-visible' : 'invisible-title'}>
                         <Col>
                             <p className="text-center">
-                                Ich arbeite sehr gerne mit all den unten angezeigten Fähigkeiten, aber ich mag besonders JavaScript und
-                                Python, da diese am meisten Mühe für Problemlösungen und verschiedene Ideen erfordern, um Sachen
-                                ins Laufen zu bringen. Tatsächlich wurde diese Website mit React.js erstellt.
+                            Die Arbeit mit den unten aufgeführten Programmen/Programmiersprachen gefällt mir sehr. Dabei schätze 
+                            ich vor allem Javascript und Python, da diese einen großen Stellenwert bei der Lösung von Problemen 
+                            und der Ideenfindung einnehmen. So habe ich diese Website mit React.js erstellt.
                             </p>
                         </Col>
                     </Row>
