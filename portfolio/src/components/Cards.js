@@ -46,7 +46,7 @@ function Cards(props) {
                     </Card.Text>
                     <div className="d-flex justify-content-between">
                         <div onClick={props.click}>
-                            <a onClick={showToast} className={ urlAvailable ? "btn btn-danger" : "btn btn-primary"} href={props.url} target="_blank" rel="noopener noreferrer">Go to the Website</a>
+                            <a onClick={showToast} className={ urlAvailable ? "btn btn-danger" : "btn btn-primary"} href={props.url} target="_blank" rel="noopener noreferrer">Zur Website</a>
                         </div>
                         <a className="btn btn-primary" href={props.source} target="_blank" rel="noopener noreferrer">Quellcode</a>
                     </div>
