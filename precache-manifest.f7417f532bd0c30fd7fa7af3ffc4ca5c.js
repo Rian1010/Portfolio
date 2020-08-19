@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "304f3e8a7e664738916d08e3f4205c5b",
+    "revision": "8864ef779f824dd1f25e099e3a9ada3b",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "ce09fc9b68805040bfa6",
-    "url": "/Portfolio/static/css/main.c2358829.chunk.css"
+    "revision": "bad0d9204730c3094e56",
+    "url": "/Portfolio/static/css/main.f8846eff.chunk.css"
   },
   {
-    "revision": "268542a35a3e66a525c5",
-    "url": "/Portfolio/static/js/2.f3a61a8d.chunk.js"
+    "revision": "c7d177c8d2ca88dc6af1",
+    "url": "/Portfolio/static/js/2.d6bfa4b0.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/Portfolio/static/js/2.f3a61a8d.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.d6bfa4b0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ce09fc9b68805040bfa6",
-    "url": "/Portfolio/static/js/main.9c03b0ab.chunk.js"
+    "revision": "bad0d9204730c3094e56",
+    "url": "/Portfolio/static/js/main.0e282625.chunk.js"
   },
   {
     "revision": "b83a37198ba343383876",
@@ -36,12 +36,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/Resume.6666d01d.pdf"
   },
   {
+    "revision": "39f84e02732da41715b5738b03f9ca82",
+    "url": "/Portfolio/static/media/atalier.39f84e02.png"
+  },
+  {
     "revision": "4217c3481c53ba6309fb89567d5743a9",
     "url": "/Portfolio/static/media/charity-site.4217c348.png"
   },
   {
     "revision": "678016304f5cc0ee15bc09b5c5a088ac",
     "url": "/Portfolio/static/media/english-flag.67801630.svg"
+  },
+  {
+    "revision": "766a8180b6dd926fe3b6c4b13208777c",
+    "url": "/Portfolio/static/media/envy.766a8180.png"
   },
   {
     "revision": "632614816d1c0d2c9a2a91fe1ab06f07",
@@ -54,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ea45f0014964faa0e8b2a6beab40c30f",
     "url": "/Portfolio/static/media/js-site.ea45f001.png"
+  },
+  {
+    "revision": "05924cd3eddcb5a6c0bc3d59cd9ea55c",
+    "url": "/Portfolio/static/media/mendelson.05924cd3.png"
   },
   {
     "revision": "8ec2085e6a2d0f2194c12d640b67a4b7",
