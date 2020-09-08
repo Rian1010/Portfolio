@@ -11,7 +11,7 @@ const jsSkills = [
     },
     {
         skillName: "React.js",
-        level: "75",
+        level: "85",
         colour: "success"
     },
     {
@@ -34,6 +34,11 @@ const pySkills = [
     },
     {
         skillName: "Django",
+        level: "88",
+        colour: "success"
+    },
+    {
+        skillName: "Django REST Framework",
         level: "88",
         colour: "success"
     },
