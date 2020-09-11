@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route path={ "/" || "/Portfolio/"} exact>
+          <Route path="/Portfolio/" exact>
             <EnglishSite />
           </Route> 
 
