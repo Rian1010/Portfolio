@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a2b1b6b4fdbcf2d58f5c5eff575367b7",
+    "revision": "d96a55b5f7d0e2d6ad14614467f56244",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "84fe902a7b9a12762397",
-    "url": "/Portfolio/static/css/main.4b080698.chunk.css"
+    "revision": "a0545c6e3adac95c9d68",
+    "url": "/Portfolio/static/css/main.48b9ca87.chunk.css"
   },
   {
     "revision": "acfb6befeb0836839f15",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.090c4ba1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "84fe902a7b9a12762397",
-    "url": "/Portfolio/static/js/main.83ded4a8.chunk.js"
+    "revision": "a0545c6e3adac95c9d68",
+    "url": "/Portfolio/static/js/main.b0fe6662.chunk.js"
   },
   {
     "revision": "b83a37198ba343383876",
@@ -40,6 +40,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/atalier.39f84e02.png"
   },
   {
+    "revision": "fa9c3caa6449d964cfba2f9251f7e87a",
+    "url": "/Portfolio/static/media/boutique-ado-pic.fa9c3caa.png"
+  },
+  {
     "revision": "4217c3481c53ba6309fb89567d5743a9",
     "url": "/Portfolio/static/media/charity-site.4217c348.png"
   },
@@ -54,10 +58,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "632614816d1c0d2c9a2a91fe1ab06f07",
     "url": "/Portfolio/static/media/german-flag.63261481.svg"
-  },
-  {
-    "revision": "e1e56d019f8fdeb08fe40988759340f1",
-    "url": "/Portfolio/static/media/germany-site.e1e56d01.png"
   },
   {
     "revision": "ea45f0014964faa0e8b2a6beab40c30f",
