@@ -2,10 +2,14 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Resume from '../resumes/Resume.pdf';
 import Lebenslauf from '../resumes/Lebenslauf.pdf'
+import { BrowserRouter as Switch, Route } from "react-router-dom";
+
 
 function Footer() {
-    if (window.location.pathname === "/" || window.location.pathname === "/Portfolio/") {
+    // if (window.location.pathname === "/" || window.location.pathname === "/Portfolio/") {
         return (
+            <Switch>
+            <Route path={"/" || "/Portfolio"} exact>
             <Container fluid className="py-5 nav-footer-colour">
                 <Row className="text-center">
                     <Col xs={12} md={4}>
@@ -30,10 +34,13 @@ function Footer() {
                     </Col>
                 </Row>
             </Container>
-        );
-    }
-    else if (window.location.pathname === "/Portfolio/de") {
-        return (
+            </Route>
+        {/* ); */}
+    {/* } */}
+    {/* else if (window.location.pathname === "/Portfolio/de") { */}
+        {/* return ( */}
+            <Route path="/Portfolio/de">
+
             <Container fluid className="py-5 nav-footer-colour">
                 <Row className="text-center">
                     <Col xs={12} md={4}>
@@ -58,8 +65,11 @@ function Footer() {
                     </Col>
                 </Row>
             </Container>
+            </Route>
+
+            </Switch>
         );
     }
-}
+
 
 export default Footer;

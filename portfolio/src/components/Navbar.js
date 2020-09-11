@@ -2,14 +2,17 @@ import React from 'react';
 import './App.css';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { BrowserRouter as Switch, Route } from "react-router-dom"
 
 function Navigation() {
     const navColour = {
         backgroundColor: "#54cdff",
     }
    
-    if (window.location.pathname === "/" || window.location.pathname === "/Portfolio/") {
+    // if (window.location.pathname === "/" || window.location.pathname === "/Portfolio/") {
         return (
+            <Switch>
+            <Route path={"/" || "/Portfolio"} exact>
             <Navbar className="nav-footer-colour" expand="lg" bg="" variant="light" fixed="top">
                 <Navbar.Brand href="/Portfolio/">Rian Sunthbocus</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -29,10 +32,12 @@ function Navigation() {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>  
-        );
+            </Route>
+        {/* );
     }
     else if (window.location.pathname === "/Portfolio/de") {
-        return (
+        return ( */}
+            <Route path="/Portfolio/de">
             <Navbar expand="lg" bg="" variant="light" style={navColour} fixed="top">
                 <Navbar.Brand href="/Portfolio/">Rian Sunthbocus</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -52,8 +57,10 @@ function Navigation() {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>  
+            </Route>
+            </Switch>
         );
     }
-}
+
 
 export default Navigation;
