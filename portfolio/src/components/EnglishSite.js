@@ -92,7 +92,7 @@ function EnglishSite() {
                 </Row>
                 <Row style={{width: "103%"}}>
                   <Col className="grid-3">
-                    {internshipSite.map((cardInfo, i) => (
+                    {internshipSite.slice(0,3).map((cardInfo, i) => (
                       <Internship
                         key={i}
                         image={ `bg ${cardInfo.img}` }

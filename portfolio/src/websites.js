@@ -18,6 +18,14 @@ const websiteInfo = [
     },
     {
         img: "site-3",
+        title: "Boutique Ado",
+        titel: "Boutique Ado",
+        technologies: "Python, Django, PostgresSQL, stripe API, JavaScript, jQuery, CSS, Bootstrap, HTML",
+        sourceCode: "https://github.com/Rian1010/boutique_ado",
+        websiteURL: "https://rian-boutique-ado.herokuapp.com/"
+    },
+    {
+        img: "site-4",
         title: "Language Learner's App / JavaScript Learning App (Third Milestone Project)",
         titel: "Sprachlerner App / JavaScript-Lern-App (Drittes Meilenstein Projekt)",
         technologies: "Flask, Python, MongoDB, JavaScript, jQuery, Email.js API, Bootstrap, CSS, HTML",
@@ -25,7 +33,7 @@ const websiteInfo = [
         websiteURL: "https://language-learners-app.herokuapp.com/"
     },
     {
-        img: "site-4",
+        img: "site-5",
         title: "Shopping-List",
         titel: "Einkaufsliste",
         technologies: "Flask, Python, MongoDB, JavaScript, jQuery, Bootstrap, CSS, HTML",
@@ -33,20 +41,12 @@ const websiteInfo = [
         websiteURL: "https://shopping-list-google.herokuapp.com/"
     },
     {
-        img: "site-5",
+        img: "site-6",
         title: "Charity Base (Second Milestone Project)",
         titel: "Wohltätigkeiten Website",
         technologies: "HTML, CSS, JavaScript, DC.js API, D3.js API, Email.js API, Google Maps API",
         sourceCode: "https://github.com/Rian1010/Charity-Website",
         websiteURL: "https://rian1010.github.io/Charity-Website/"
-    },
-    {
-        img: "site-6",
-        title: "Germany Online Guide (First Milestone Project)",
-        titel: "Deutschland Online-Guide (Erstes Meilenstein Projekt)",
-        technologies: "HTML, CSS, Bootstrap, JavaScripts",
-        sourceCode: "https://github.com/Rian1010/Germany-Online-Guide",
-        websiteURL: "https://rian1010.github.io/Germany-Online-Guide/index.html"
     }
 ];
 
