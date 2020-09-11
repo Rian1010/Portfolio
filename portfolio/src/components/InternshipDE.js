@@ -2,7 +2,7 @@ import * as React from 'react'
 import { Card } from 'react-bootstrap';
 import './App.css';
 
-function InternshipCards(props) {
+function InternshipsDE(props) {
     return (
         <Card style={{ width: '100%' }} className="mt-5">
             <a variant="top" className={props.image} href={props.url} target="_blank" rel="noopener noreferrer"></a>
@@ -12,11 +12,11 @@ function InternshipCards(props) {
                     {props.technologies}
                 </Card.Text>
                 <div className="d-flex justify-content-center">
-                    <a className={"btn btn-primary"} href={props.url} target="_blank" rel="noopener noreferrer">Go to the Website</a>
+                    <a className={"btn btn-primary"} href={props.url} target="_blank" rel="noopener noreferrer">Zur Website</a>
                 </div>
             </Card.Body>
         </Card>
-    );
+    )
 }
 
-export default InternshipCards;
+export default InternshipsDE

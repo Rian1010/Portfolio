@@ -140,7 +140,7 @@ html, body {
   }
   /* Animation from right */
   .invisible-right {
-    opacity: 0;
+    opacity: 1;
     transform: translateX(5vh);
     visibility: hidden;
   }
