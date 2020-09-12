@@ -59,7 +59,7 @@ const fullPortfolio = [
     img: "site-8",
     title: "Thorin & Company",
     titel: "Thorin & Die Truppe",
-    technologies: "Flask, Python, AJAX, jQuery, JavaScript, Bootstrap, HTML, CSS, Github, Heroku",
+    technologies: "Flask, Python, AJAX, jQuery, JavaScript, Bootstrap, HTML, CSS, SASS, Github, Heroku",
     sourceCode: "https://github.com/Rian1010/Flask",
     websiteURL: "https://thorin-and-company-4.herokuapp.com/"
 },
