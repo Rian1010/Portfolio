@@ -13,7 +13,7 @@ function SkillBars() {
             const width = window.innerWidth;
             const screenSizeHorizontal = 992;
             if(width >= screenSizeHorizontal) {
-                if(window.scrollY >= 2700) {
+                if(window.scrollY >= 3100) {
                     fadeSkillsHandler(true);
                 }
             }
