@@ -40,21 +40,22 @@ function AboutDE() {
                         <Col xs={12} lg={6} className={`text-center pt-4 pt-lg-0 ${fadeIn ? 'is-visible' : 'invisible-right'}`} ref={ref}>
                             <p>
                                 Programmieren ist einer meiner größten Leidenschaften! Seit ich gelernt habe zu codieren, war ich 
-                                von responsiven Gestaltungen von Webseiten bis zur Codierung ihrer Funktionalitäten mit 
+                                von den responsiven Gestaltungen von Websites bis zur Codierung ihrer Funktionalitäten mit 
                                 Programmiersprachen, Bibliotheken und Frameworks fasziniert. Außerdem habe ich in einem Praktikum 
                                 Suchmaschinenoptimierung verwendet, um hoch in den Google-Suchergebnissen zu ranken.
                             </p>
                             <p>
                                 Darüber hinaus ist die Problemlösung einer der wichtigsten Aspekte in der Softwareentwicklung also 
                                 müssen diese mit hoher Motivation und Engagement getan werden. Deshalb gebe ich immer mein Bestes, 
-                                um die effizienteste Lösungen zu finden, indem ich verschiedene Arten der Codierung ausprobiere oder viel 
-                                recherchiere. Wenn ich aber tagelang feststecke, kommuniziere ich normalerweise mit anderen 
-                                Programmierern, um eine praktische Lösung zu finden.
+                                um die effizienteste Lösungen zu finden, indem ich verschiedene Arten der Codierung ausprobiere. 
+                                Wenn ich aber tagelang feststecke, gehe ich wieder durch den Code, benutze eine Dokumentation oder
+                                kommuniziere mit anderen Programmierern, um eine praktische Lösung zu finden.
                             </p>
                             <p>
                                 Mein Ziel ist es, eine angenehme Benutzererfahrung hervorzubringen, indem ich ansprechende und 
-                                intuitive Designs und Funktionalitäten codiere, die sich als nützlich erweisen. Außerdem ist es mir 
-                                wichtig, sauberen Code zu schreiben, sodass andere Entwickler sie mühelos verstehen können.
+                                intuitive Designs und Funktionalitäten codiere, die sich dem Nutzer als nützlich erweisen. Außerdem 
+                                war es mir in einem Praktikum wichtig, sauberen Code zu schreiben, sodass andere Arbeiter sie mühelos 
+                                verstehen konnten.
                             </p>
                         </Col>
                     </Row>
