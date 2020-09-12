@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d96a55b5f7d0e2d6ad14614467f56244",
+    "revision": "c788f055931b18aca1d476d510461545",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "a0545c6e3adac95c9d68",
-    "url": "/Portfolio/static/css/main.48b9ca87.chunk.css"
+    "revision": "b2825cdc6d6e70dbac9e",
+    "url": "/Portfolio/static/css/main.b4e82640.chunk.css"
   },
   {
-    "revision": "acfb6befeb0836839f15",
-    "url": "/Portfolio/static/js/2.090c4ba1.chunk.js"
+    "revision": "06acaa26f0096d981e0c",
+    "url": "/Portfolio/static/js/2.26e02b71.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/Portfolio/static/js/2.090c4ba1.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.26e02b71.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a0545c6e3adac95c9d68",
-    "url": "/Portfolio/static/js/main.b0fe6662.chunk.js"
+    "revision": "b2825cdc6d6e70dbac9e",
+    "url": "/Portfolio/static/js/main.18caaad7.chunk.js"
   },
   {
     "revision": "b83a37198ba343383876",
@@ -60,6 +60,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/german-flag.63261481.svg"
   },
   {
+    "revision": "e1e56d019f8fdeb08fe40988759340f1",
+    "url": "/Portfolio/static/media/germany-site.e1e56d01.png"
+  },
+  {
+    "revision": "ecdcc3e7c1f355459b144e17930443db",
+    "url": "/Portfolio/static/media/hobbit-page.ecdcc3e7.png"
+  },
+  {
     "revision": "ea45f0014964faa0e8b2a6beab40c30f",
     "url": "/Portfolio/static/media/js-site.ea45f001.png"
   },
@@ -70,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8ec2085e6a2d0f2194c12d640b67a4b7",
     "url": "/Portfolio/static/media/phoneSite.8ec2085e.png"
+  },
+  {
+    "revision": "afb04b18bafcbd04d0ac07bfc9e5b7ba",
+    "url": "/Portfolio/static/media/portfolio-pic.afb04b18.png"
   },
   {
     "revision": "773b92e567ef7cba20d75d0418781b49",
