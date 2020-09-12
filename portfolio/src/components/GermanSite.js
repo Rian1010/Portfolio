@@ -10,11 +10,12 @@ import AboutDE from './AboutDE';
 import SkillBarsDE from './SkillBarsDE';
 import FooterDE from './FooterDE';
 
+import { Link } from 'react-router-dom';
 import { Container, Row, Col, Toast } from 'react-bootstrap';
 import './App.css';
 
 function GermanSite() {
-    const [urlAvailable, available] = useState(false);
+  const [urlAvailable, available] = useState(false);
 
   function showToast(e) {
       const link = e.target.getAttribute("href");
@@ -47,7 +48,6 @@ function GermanSite() {
   });
 
     return (
-        <div>
             <div>
               <Navigation />
               <BannerDE />
@@ -57,6 +57,13 @@ function GermanSite() {
                   <Col>
                     <h2 className="display-4 text-center">Projekt Beispiele</h2>
                   </Col>
+                </Row>
+                <Row>
+                    <Col className="mt-3">
+                        <Link to="/Portfolio/Full-Portfolio/de">
+                            <button className="btn btn-outline-primary btn-lg">Ganzes Portfolio</button>
+                        </Link>
+                    </Col>
                 </Row>
                 <Row>
                   <Col className="grid-3">
@@ -106,7 +113,6 @@ function GermanSite() {
               <SkillBarsDE />
               <FooterDE />
             </div> 
-        </div>
     )
 }
 

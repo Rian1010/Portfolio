@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import EnglishSite from './EnglishSite';
 import GermanSite from './GermanSite';
+import FullPorfolioSite from './FullPortfolio';
 
 function App() {
   
@@ -16,6 +17,14 @@ function App() {
 
           <Route path="/Portfolio/de" exact>
             <GermanSite />
+          </Route> 
+
+          <Route path="/Portfolio/Full-Portfolio" exact>
+            <FullPorfolioSite />
+          </Route> 
+
+          <Route path="/Portfolio/Full-Portfolio/de" exact>
+            <FullPorfolioSite />
           </Route> 
         </Switch>
       </Router>

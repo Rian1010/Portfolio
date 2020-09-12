@@ -2,7 +2,6 @@ import * as React from 'react'
 import { useState } from 'react';
 import { Card } from 'react-bootstrap';
 import './App.css';
-// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 function Cards(props) {
  
@@ -18,16 +17,16 @@ function Cards(props) {
     return (
         <Card style={{ width: '100%'}} className="mt-5">
             <a onClick={props.click} variant="top" className={props.image} href={props.url} target="_blank" rel="noopener noreferrer"></a>
-            <Card.Body className="d-flex flex-column justify-content-between text-center">
+            <Card.Body className="d-flex flex-column justify-content-between text-center card-body">
                 <Card.Title>{props.title}</Card.Title>
                 <Card.Text>
                     {props.technologies}
                 </Card.Text>
                 <div className="d-flex justify-content-between">
                     <div onClick={props.click}>
-                        <a onClick={showToast} className={ urlAvailable ? "btn btn-danger" : "btn btn-primary"} href={props.url} target="_blank" rel="noopener noreferrer">Go to the Website</a>
+                        <a onClick={showToast} className={ urlAvailable ? "btn btn-outline-danger" : "btn btn-outline-primary"} href={props.url} target="_blank" rel="noopener noreferrer">Go to the Website</a>
                     </div>
-                    <a className="btn btn-primary" href={props.source} target="_blank" rel="noopener noreferrer">Source Code</a>
+                    <a className="btn btn-outline-primary" href={props.source} target="_blank" rel="noopener noreferrer">Source Code</a>
                 </div>
             </Card.Body>
         </Card>

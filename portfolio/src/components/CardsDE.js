@@ -18,16 +18,16 @@ function CardsDE(props) {
         <div>
             <Card style={{ width: '100%' }} className="mt-5">
                 <a onClick={props.click} variant="top" className={props.image} href={props.url} target="_blank" rel="noopener noreferrer"></a>
-                <Card.Body className="d-flex flex-column justify-content-between text-center">
+                <Card.Body className="d-flex flex-column justify-content-between text-center card-body">
                     <Card.Title>{props.title}</Card.Title>
                     <Card.Text>
                         {props.technologies}
                     </Card.Text>
                     <div className="d-flex justify-content-between">
                         <div onClick={props.click}>
-                            <a onClick={showToast} className={ urlAvailable ? "btn btn-danger" : "btn btn-primary"} href={props.url} target="_blank" rel="noopener noreferrer">Zur Website</a>
+                            <a onClick={showToast} className={ urlAvailable ? "btn btn-outline-danger" : "btn btn-outline-primary"} href={props.url} target="_blank" rel="noopener noreferrer">Zur Website</a>
                         </div>
-                        <a className="btn btn-primary" href={props.source} target="_blank" rel="noopener noreferrer">Quellcode</a>
+                        <a className="btn btn-outline-primary" href={props.source} target="_blank" rel="noopener noreferrer">Quellcode</a>
                     </div>
                 </Card.Body>
             </Card>

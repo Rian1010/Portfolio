@@ -188,6 +188,10 @@ html, body {
   grid-template-rows: auto;
 }
 
+.card-body {
+  min-height: 270px;
+}
+
 @media (min-width: 768px) {
   .grid-3 {
     display: grid;
@@ -209,6 +213,7 @@ html, body {
     grid-template-rows: auto;
   }
 }
+
 .bg {
   width: 100%;
   height: 250px;
@@ -245,6 +250,18 @@ html, body {
 
 .site-6 {
   background-image: url('../img/charity-site.png');
+}
+
+.site-7 {
+  background-image: url('../img/portfolio-pic.png');
+}
+
+.site-8 {
+  background-image: url('../img/hobbit-page.png');
+}
+
+.site-9 {
+  background-image: url('../img/germany-site.png');
 }
 
 .intern-site-1 {

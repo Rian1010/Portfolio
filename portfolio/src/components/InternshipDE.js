@@ -12,7 +12,7 @@ function InternshipsDE(props) {
                     {props.technologies}
                 </Card.Text>
                 <div className="d-flex justify-content-center">
-                    <a className={"btn btn-primary"} href={props.url} target="_blank" rel="noopener noreferrer">Zur Website</a>
+                    <a className={"btn btn-outline-primary"} href={props.url} target="_blank" rel="noopener noreferrer">Zur Website</a>
                 </div>
             </Card.Body>
         </Card>

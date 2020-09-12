@@ -10,11 +10,12 @@ import Footer from './Footer';
 import internshipSite from '../internship';
 import websiteInfo from '../websites';
 
+import { Link } from 'react-router-dom';
 import { Container, Row, Col, Toast } from 'react-bootstrap';
 import './App.css';
 
 function EnglishSite() {
-    const [urlAvailable, available] = useState(false);
+  const [urlAvailable, available] = useState(false);
 
   function showToast(e) {
       const link = e.target.getAttribute("href");
@@ -47,7 +48,6 @@ function EnglishSite() {
   });
   
     return (
-        <div>
             <div>
               <Navigation />
               <Banner />
@@ -57,6 +57,13 @@ function EnglishSite() {
                   <Col>
                     <h2 className="display-4 text-center">Project Examples</h2>
                   </Col>
+                </Row>
+                <Row>
+                    <Col className="mt-3">
+                        <Link to="/Portfolio/Full-Portfolio">
+                            <button className="btn btn-outline-primary btn-lg">Full Portfolio</button>
+                        </Link>
+                    </Col>
                 </Row>
                 <Row>
                   <Col className="grid-3">
@@ -107,7 +114,6 @@ function EnglishSite() {
               <SkillBars />
               <Footer />
             </div>
-        </div>
     )
 }
 
