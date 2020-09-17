@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useEffect, useRef } from 'react';
 import Navigation from './Navbar';
 import internshipSite from '../internship';
-import websiteInfo from '../websites';
+import fullPortfolio from '../full-portfolio';
 import BannerDE from './BannerDE';
 import CardsDE from './CardsDE';
 import InternshipDE from './InternshipDE';
@@ -67,7 +67,7 @@ function GermanSite() {
                 </Row>
                 <Row>
                   <Col className="grid-3">
-                    {websiteInfo.map((cardInfo, i) => (
+                    {fullPortfolio.map((cardInfo, i) => (
                       <CardsDE
                         key={i}
                         image={ `bg ${cardInfo.img}` }

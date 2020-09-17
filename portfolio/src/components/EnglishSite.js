@@ -8,7 +8,8 @@ import About from './About';
 import SkillBars from './SkillBars';
 import Footer from './Footer';
 import internshipSite from '../internship';
-import websiteInfo from '../websites';
+import fullPortfolio from '../full-portfolio';
+
 
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Toast } from 'react-bootstrap';
@@ -67,7 +68,7 @@ function EnglishSite() {
                 </Row>
                 <Row>
                   <Col className="grid-3">
-                    {websiteInfo.map((cardInfo, i) => (
+                    {fullPortfolio.slice(0,6).map((cardInfo, i) => (
                       <Cards
                         key={i}
                         image={ `bg ${cardInfo.img}` }
@@ -99,7 +100,7 @@ function EnglishSite() {
                 </Row>
                 <Row style={{width: "103%"}}>
                   <Col className="grid-3">
-                    {internshipSite.slice(0,3).map((cardInfo, i) => (
+                    {internshipSite.map((cardInfo, i) => (
                       <Internship
                         key={i}
                         image={ `bg ${cardInfo.img}` }

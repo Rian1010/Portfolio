@@ -229,38 +229,42 @@ html, body {
 }
 
 .site-1 {
-  background-image: url('../img/phoneSite.png');
+  background-image: url('../img/amazon-clone.png');
 }
 
 .site-2 {
-  background-image: url('../img/skywheelers-site.png');
+  background-image: url('../img/phoneSite.png');
 }
 
 .site-3 {
-  background-image: url('../img/boutique-ado-pic.png');
+  background-image: url('../img/skywheelers-site.png');
 }
 
 .site-4 {
-  background-image: url('../img/js-site.png');
+  background-image: url('../img/boutique-ado-pic.png');
 }
 
 .site-5 {
-  background-image: url('../img/shopping-list.png');
+  background-image: url('../img/js-site.png');
 }
 
 .site-6 {
-  background-image: url('../img/charity-site.png');
+  background-image: url('../img/shopping-list.png');
 }
 
 .site-7 {
-  background-image: url('../img/portfolio-pic.png');
+  background-image: url('../img/charity-site.png');
 }
 
 .site-8 {
-  background-image: url('../img/hobbit-page.png');
+  background-image: url('../img/portfolio-pic.png');
 }
 
 .site-9 {
+  background-image: url('../img/hobbit-page.png');
+}
+
+.site-10 {
   background-image: url('../img/germany-site.png');
 }
 
