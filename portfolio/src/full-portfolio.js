@@ -5,7 +5,7 @@ const fullPortfolio = [
     titel: "Amazon Klon",
     technologies: "ReactJS, CSS, HTML, Redux, Express, Firebase, Github",
     sourceCode: "https://github.com/Rian1010/Amazon-Clone",
-    websiteURL: ""
+    websiteURL: "https://clone-568b3.web.app/"
 },
 {
     img: "site-2",
