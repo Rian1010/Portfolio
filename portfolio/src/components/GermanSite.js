@@ -67,7 +67,7 @@ function GermanSite() {
                 </Row>
                 <Row>
                   <Col className="grid-3">
-                    {fullPortfolio.map((cardInfo, i) => (
+                    {fullPortfolio.slice(0,6).map((cardInfo, i) => (
                       <CardsDE
                         key={i}
                         image={ `bg ${cardInfo.img}` }

@@ -15,7 +15,7 @@ const jsSkills = [
         colour: "success"
     },
     {
-        skillName: "Node.js",
+        skillName: "Node.js & Express.js",
         level: "50",
         colour: "success"
     },
