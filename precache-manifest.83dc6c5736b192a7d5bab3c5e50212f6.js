@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3df86303cbccd017e27df9c9b3daac93",
+    "revision": "7b9edf6f4d80c7f6bbec2e7a15b7af89",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "9fe36ff872840cb07880",
-    "url": "/Portfolio/static/css/main.16a5acff.chunk.css"
+    "revision": "d33f7650ab2a00405f9d",
+    "url": "/Portfolio/static/css/main.a522bb64.chunk.css"
   },
   {
     "revision": "06acaa26f0096d981e0c",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.26e02b71.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9fe36ff872840cb07880",
+    "revision": "d33f7650ab2a00405f9d",
     "url": "/Portfolio/static/js/main.a7121980.chunk.js"
   },
   {
@@ -96,7 +96,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/shopping-list.0fbd4722.png"
   },
   {
-    "revision": "35ffa97a2d677f7b590bc9fe93eee7ee",
-    "url": "/Portfolio/static/media/skywheelers-site.35ffa97a.png"
+    "revision": "fd226f242de6f0b2feee0b8b8d01866a",
+    "url": "/Portfolio/static/media/skywheelers-site.fd226f24.png"
   }
 ]);
