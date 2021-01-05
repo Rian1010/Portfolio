@@ -1,17 +1,17 @@
 const jsSkills = [
     {
         skillName: "JavaScript",
-        level: "90",
+        level: "92",
         colour: "info"
     },
     {
-        skillName: "jQuery",
+        skillName: "React.js",
         level: "88",
         colour: "success"
     },
     {
-        skillName: "React.js",
-        level: "85",
+        skillName: "jQuery",
+        level: "86",
         colour: "success"
     },
     {

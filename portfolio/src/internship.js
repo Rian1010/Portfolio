@@ -8,8 +8,8 @@ const internshipSite = [
     },
     {
         img: "intern-site-2",
-        title: "Atalier Tobisch",
-        titel: "Atalier Tobisch",
+        title: "Atelier Tobisch",
+        titel: "Atelier Tobisch",
         technologies: "Webflow, HTML, CSS, JavaScript",
         websiteURL: "https://www.atelier-tobisch.de/"
     },
