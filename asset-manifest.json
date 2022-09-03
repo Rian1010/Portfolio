@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e596ee57.chunk.css",
-    "main.js": "/Portfolio/static/js/main.8cd33dab.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.8cd33dab.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.01f321c4.chunk.css",
+    "main.js": "/Portfolio/static/js/main.ebeade04.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.ebeade04.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.e440ee5a.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e440ee5a.js.map",
     "static/js/2.26e02b71.chunk.js": "/Portfolio/static/js/2.26e02b71.chunk.js",
     "static/js/2.26e02b71.chunk.js.map": "/Portfolio/static/js/2.26e02b71.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.0fb94c07568bbf03ed1b2920c24591e4.js": "/Portfolio/precache-manifest.0fb94c07568bbf03ed1b2920c24591e4.js",
+    "precache-manifest.c8d04de5769727142fdb2c49bad9733f.js": "/Portfolio/precache-manifest.c8d04de5769727142fdb2c49bad9733f.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.e596ee57.chunk.css.map": "/Portfolio/static/css/main.e596ee57.chunk.css.map",
+    "static/css/main.01f321c4.chunk.css.map": "/Portfolio/static/css/main.01f321c4.chunk.css.map",
     "static/js/2.26e02b71.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.26e02b71.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Portfolio/static/media/travelgoal.85b2b82b.png",
-    "static/media/Lebenslauf.pdf": "/Portfolio/static/media/Lebenslauf.432b368f.pdf",
-    "static/media/Resume.pdf": "/Portfolio/static/media/Resume.4c74adf7.pdf"
+    "static/media/Lebenslauf.pdf": "/Portfolio/static/media/Lebenslauf.6827162e.pdf",
+    "static/media/Resume.pdf": "/Portfolio/static/media/Resume.d66e01a7.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.e440ee5a.js",
     "static/js/2.26e02b71.chunk.js",
-    "static/css/main.e596ee57.chunk.css",
-    "static/js/main.8cd33dab.chunk.js"
+    "static/css/main.01f321c4.chunk.css",
+    "static/js/main.ebeade04.chunk.js"
   ]
 }
