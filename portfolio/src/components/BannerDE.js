@@ -38,7 +38,7 @@ function BannerDE() {
               Full-Stack-Softwareentwickler
             </h2>
             <h4 className='lead pl-1'>
-              HTML, CSS, JavaScript, Flutter, Python, Django, React.js, jQuery,
+              HTML, CSS, JavaScript, Python, Django, React.js, jQuery,
               Flask, SQL, MongoDB, AWS
             </h4>
           </Col>

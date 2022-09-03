@@ -35,7 +35,7 @@ function Banner() {
           <h1 className='display-1'>Hi, I'm Rian!</h1>
           <h2 className='display-4'>Full-Stack Software Developer</h2>
           <h4 className='lead pl-1'>
-            HTML, CSS, JavaScript, Flutter, Python, Django, React.js, jQuery,
+            HTML, CSS, JavaScript, Python, Django, React.js, jQuery,
             Flask, SQL, MongoDB, AWS
           </h4>
         </Col>
