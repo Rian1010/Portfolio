@@ -40,7 +40,6 @@ function Navigation() {
                         </Nav>
                         <Nav className="ml-auto d-flex align-items-center">
                             <Nav.Link className="my-2" href="mailto:sunthbocusrian@gmail.com"><i className="far fa-envelope-open"></i> sunthbocusrian@gmail.com</Nav.Link>
-                            <Nav.Link className="my-2" href="tel:+49 171 8011984"><i className="fas fa-phone"></i> +49 171 8011984</Nav.Link>
                             <Link to="/Portfolio/de" onClick={handleClickGer} className="btn lang-btn d-flex flex-row align-items-center">
                                 <div className="flag-de mr-2"></div>
                                 <div>German</div>
@@ -61,7 +60,6 @@ function Navigation() {
                         </Nav>
                         <Nav className="ml-auto d-flex align-items-center">
                             <Nav.Link className="my-2" href="mailto:sunthbocusrian@gmail.com"><i className="far fa-envelope-open"></i> sunthbocusrian@gmail.com</Nav.Link>
-                            <Nav.Link className="my-2" href="tel:+49 171 8011984"><i className="fas fa-phone"></i> +49 171 8011984</Nav.Link>
                             <Link to="/Portfolio/Full-Portfolio/de" onClick={handleClickGerPortfolio} className="btn lang-btn d-flex flex-row align-items-center">
                                 <div className="flag-de mr-2"></div>
                                 <div>German</div>
@@ -82,7 +80,6 @@ function Navigation() {
                         </Nav>
                         <Nav className="ml-auto d-flex align-items-center">
                             <Nav.Link className="my-2" href="mailto:sunthbocusrian@gmail.com"><i className="far fa-envelope-open"></i> sunthbocusrian@gmail.com</Nav.Link>
-                            <Nav.Link className="my-2" href="tel:+49 171 8011984"><i className="fas fa-phone"></i> +49 171 8011984</Nav.Link>
                             <Link to="/Portfolio/" onClick={handleClickEng} className="btn lang-btn d-flex flex-row align-items-center">
                                 <div className="flag-en mr-2"></div>
                                 <div>Englisch</div>
@@ -103,7 +100,6 @@ function Navigation() {
                         </Nav>
                         <Nav className="ml-auto d-flex align-items-center">
                             <Nav.Link className="my-2" href="mailto:sunthbocusrian@gmail.com"><i className="far fa-envelope-open"></i> sunthbocusrian@gmail.com</Nav.Link>
-                            <Nav.Link className="my-2" href="tel:+49 171 8011984"><i className="fas fa-phone"></i> +49 171 8011984</Nav.Link>
                             <Link to="/Portfolio/Full-Portfolio" onClick={handleClickEndPortfolio} className="btn lang-btn d-flex flex-row align-items-center">
                                 <div className="flag-en mr-2"></div>
                                 <div>Englisch</div>

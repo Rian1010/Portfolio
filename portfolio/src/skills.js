@@ -1,5 +1,4 @@
-const jsSkills = [
-    {
+const jsSkills = [{
         skillName: "JavaScript",
         level: "92",
         colour: "info"
@@ -26,8 +25,7 @@ const jsSkills = [
     }
 ]
 
-const pySkills = [
-    {
+const pySkills = [{
         skillName: "Python",
         level: "90",
         colour: "info"
@@ -49,8 +47,19 @@ const pySkills = [
     }
 ]
 
-const dbSkills = [
+const mobileDevSkills = [{
+        skillName: "Flutter",
+        level: "85",
+        colour: "info",
+    },
     {
+        skillName: "Bloc",
+        level: "50",
+        colour: "success"
+    }
+]
+
+const dbSkills = [{
         skillName: "MongoDB",
         level: "90",
         colour: "info"
@@ -67,8 +76,7 @@ const dbSkills = [
     }
 ]
 
-const ucdSkills = [
-    {
+const ucdSkills = [{
         skillName: "HTML",
         level: "95",
         colour: "info"
@@ -90,8 +98,7 @@ const ucdSkills = [
     }
 ]
 
-const versionControl = [
-    {
+const versionControl = [{
         skillName: "Github",
         level: "90",
         colour: "info"
@@ -113,8 +120,7 @@ const versionControl = [
     }
 ]
 
-const otherTools = [
-    {
+const otherTools = [{
         skillName: "Webflow",
         level: "95",
         colour: "info"
@@ -126,4 +132,12 @@ const otherTools = [
     }
 ]
 
-export { jsSkills, pySkills, dbSkills, ucdSkills, versionControl, otherTools }
+export {
+    jsSkills,
+    pySkills,
+    mobileDevSkills,
+    dbSkills,
+    ucdSkills,
+    versionControl,
+    otherTools
+}
