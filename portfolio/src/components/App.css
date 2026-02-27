@@ -194,6 +194,10 @@ html, body {
   min-height: 270px;
 }
 
+.card-buttons-gap {
+  gap: 5px
+}
+
 @media (min-width: 768px) {
   .grid-3 {
     display: grid;

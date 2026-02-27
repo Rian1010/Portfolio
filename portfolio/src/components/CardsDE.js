@@ -25,14 +25,14 @@ function CardsDE(props) {
                     <Card.Text>
                         {technologies}
                     </Card.Text>
-                    <div className="d-flex justify-content-between">
+                    <div className="d-flex justify-content-between card-buttons-gap">
                         {url && (
-                            <div onClick={() => click} className={!source && !detailsPage ? 'w-100' : ''}>
+                            <div onClick={() => click} className="w-100">
                                 <a onClick={() => showToast} className={`${ urlAvailable ? "btn btn-outline-danger" : "btn btn-outline-primary"}  w-100`} href={url} target="_blank" rel="noopener noreferrer">Zur Webseite</a>
                             </div>
                         )}
                         {source && 
-                            <a className={`${!url ? 'w-100 ' : '' }btn btn-outline-primary`} href={source} target="_blank" rel="noopener noreferrer">Quellcode</a>}
+                            <a className="w-100 btn btn-outline-primary" href={source} target="_blank" rel="noopener noreferrer">Quellcode</a>}
                         {detailsPage && 
                             <a 
                                 className="btn btn-outline-danger w-100" 
