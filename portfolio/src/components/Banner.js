@@ -71,7 +71,7 @@ function Banner() {
           <h1 className='display-4'>Hi, I'm Rian!</h1>
           <h2>Frontend Developer</h2>
           <h4 className='lead pl-1'>
-            HTML, CSS, JavaScript, ReactJS, jQuery,Python, Django,
+            HTML, CSS, SCSS, JavaScript, ReactJS, jQuery, Search Engine Optimisation (SEO), App Store Optimisation (ASO), Python, Django
           </h4>
           <a href='#about' className='learn-more-btn pb-4'>
             <p>Learn More About What I Do</p>

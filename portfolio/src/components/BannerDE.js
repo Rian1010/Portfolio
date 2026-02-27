@@ -38,7 +38,7 @@ function BannerDE() {
               Frontend-Entwickler
             </h2>
             <h4 className='lead pl-1'>
-              HTML, CSS, SCSS, JavaScript, ReactJS, jQuery, Suchmaschinenoptimierung (SEO), App-Store-Optimierung (ASO) Python, Django
+              HTML, CSS, SCSS, JavaScript, ReactJS, jQuery, Suchmaschinenoptimierung (SEO), App-Store-Optimierung (ASO), Python, Django
             </h4>
           </Col>
           <Col
@@ -74,8 +74,7 @@ function BannerDE() {
             <h1 className='display-4'>Hi, ich bin Rian!</h1>
             <h2 className='word-break'>Full-Stack-Softwareentwickler</h2>
             <h4 className='lead pl-1'>
-              HTML, CSS, JavaScript, Flutter, Python, Django, React.js, jQuery,
-              Flask, SQL, MongoDB, AWS
+              HTML, CSS, SCSS, JavaScript, ReactJS, jQuery, Suchmaschinenoptimierung (SEO), App-Store-Optimierung (ASO), Python, Django
             </h4>
             <div>
               <a
