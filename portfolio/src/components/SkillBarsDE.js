@@ -40,20 +40,19 @@ function SkillsBarsDE() {
             ref={ref}
           >
             <Col>
-              <h2 className='display-4 word-break'> Kompetenzen </h2>{' '}
-            </Col>{' '}
-          </Row>{' '}
+              <h2 className='display-4 word-break'> Kompetenzen </h2>
+            </Col>
+          </Row>
           <Row className={fadeInSkills ? 'is-visible' : 'invisible-title'}>
             <Col>
               <p className='text-center'>
                 Die Arbeit mit den unten aufgeführten Programmen /
                 Programmiersprachen gefällt mir sehr. Dabei schätze ich vor
                 allem Javascript und Python, da diese einen großen Stellenwert
-                bei der Lösung von Problemen und der Ideenfindung einnehmen.So
-                habe ich diese Website mit React.js erstellt.{' '}
-              </p>{' '}
-            </Col>{' '}
-          </Row>{' '}
+                bei der Lösung von Problemen und der Ideenfindung einnehmen.
+              </p>
+            </Col>
+          </Row>
           <Row className='pt-5'>
             <Col
               md={6}
@@ -70,14 +69,14 @@ function SkillsBarsDE() {
                   now={skill.level}
                   label={skill.skillName}
                 />
-              ))}{' '}
-            </Col>{' '}
+              ))}
+            </Col>
             <Col
               md={6}
               className={fadeInSkills ? 'is-visible' : 'invisible-left'}
               ref={ref}
             >
-              <h3 className='text-center'> JavaScript </h3>{' '}
+              <h3 className='text-center'> JavaScript </h3>
               {jsSkills.map((skill, i) => (
                 <ProgressBar
                   key={i}
@@ -87,14 +86,14 @@ function SkillsBarsDE() {
                   now={skill.level}
                   label={skill.skillName}
                 />
-              ))}{' '}
-            </Col>{' '}
+              ))}
+            </Col>
             <Col
               md={6}
               className={fadeInSkills ? 'is-visible' : 'invisible-right'}
               ref={ref}
             >
-              <h3 className='text-center'> Python </h3>{' '}
+              <h3 className='text-center'> Python </h3>
               {pySkills.map((skill, i) => (
                 <ProgressBar
                   key={i}
@@ -104,14 +103,14 @@ function SkillsBarsDE() {
                   now={skill.level}
                   label={skill.skillName}
                 />
-              ))}{' '}
-            </Col>{' '}
+              ))}
+            </Col>
             <Col
               md={6}
               className={fadeInSkills ? 'is-visible' : 'invisible-right'}
               ref={ref}
             >
-              <h3 className='text-center'> Datenbanken </h3>{' '}
+              <h3 className='text-center'> Datenbanken </h3>
               {dbSkills.map((skill, i) => (
                 <ProgressBar
                   key={i}
@@ -121,14 +120,14 @@ function SkillsBarsDE() {
                   now={skill.level}
                   label={skill.skillName}
                 />
-              ))}{' '}
-            </Col>{' '}
+              ))}
+            </Col>
             <Col
               md={6}
               className={fadeInSkills ? 'is-visible' : 'invisible-right'}
               ref={ref}
             >
-              <h3 className='text-center'> App-Entwicklung </h3>{' '}
+              <h3 className='text-center'> App-Entwicklung </h3>
               {mobileDevSkills.map((skill, i) => (
                 <ProgressBar
                   key={i}
@@ -138,14 +137,14 @@ function SkillsBarsDE() {
                   now={skill.level}
                   label={skill.skillName}
                 />
-              ))}{' '}
-            </Col>{' '}
+              ))}
+            </Col>
             <Col
               md={6}
               className={fadeInSkills ? 'is-visible' : 'invisible-left'}
               ref={ref}
             >
-              <h3 className='text-center'> Services & Versionskontrolle </h3>{' '}
+              <h3 className='text-center'> Services & Versionskontrolle </h3>
               {versionControl.map((skill, i) => (
                 <ProgressBar
                   key={i}
@@ -155,14 +154,14 @@ function SkillsBarsDE() {
                   now={skill.level}
                   label={skill.skillName}
                 />
-              ))}{' '}
-            </Col>{' '}
+              ))}
+            </Col>
             <Col
               md={6}
               className={fadeInSkills ? 'is-visible' : 'invisible-right'}
               ref={ref}
             >
-              <h3 className='text-center'> Andere Fähigkeiten </h3>{' '}
+              <h3 className='text-center'> Andere Fähigkeiten </h3>
               {otherTools.map((skill, i) => (
                 <ProgressBar
                   key={i}
@@ -172,11 +171,11 @@ function SkillsBarsDE() {
                   now={skill.level}
                   label={skill.skillName}
                 />
-              ))}{' '}
-            </Col>{' '}
-          </Row>{' '}
-        </Container>{' '}
-      </section>{' '}
+              ))}
+            </Col>
+          </Row>
+        </Container>
+      </section>
     </div>
   );
 }

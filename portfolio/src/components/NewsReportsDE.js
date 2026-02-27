@@ -26,7 +26,7 @@ const NewsReportsDE = () => {
         <Container>
             <Row>
                 <Col>
-                    <h1 className="display-4 text-center">Reportagen mit Webseiten vom Portfolio</h1>
+                    <h1 className="display-4 text-center">Nachrichtenberichte mit Portfolio-Webseiten</h1>
                 </Col>
             </Row>
             <Row
@@ -37,14 +37,14 @@ const NewsReportsDE = () => {
             >
                 <Col className="grid grid-videos col">
                     <div className='d-flex flex-column justify-content-between'>
-                        <h3 className='display-5'>Reportage mit der Niedrigwasser-Informationszentrum Baden-Württemberg Webseite</h3>
+                        <h3 className='display-5'>Bericht mit der Niedrigwasser-Informationszentrum Baden-Württemberg Webseite</h3>
                         <video controls>
                             <source src={Tagesschau} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
                     </div>
                     <div className='d-flex flex-column justify-content-between'>
-                        <h3 className='display-5'>Reportage mit der Kompetenzzentrum Klimawandel Webseite</h3>
+                        <h3 className='display-5'>Bericht mit der Kompetenzzentrum Klimawandel Webseite</h3>
                         <video controls>
                             <source src={SWR} type="video/mp4" />
                             Your browser does not support the video tag.

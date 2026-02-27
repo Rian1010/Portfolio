@@ -36,6 +36,7 @@ function Navigation() {
                         <Nav className="mr-auto d-flex align-items-center">
                             <Nav.Link className="my-2" href="#about"><i className="far fa-user-circle"></i> About</Nav.Link>
                             <Nav.Link className="my-2" href="#examples"><i className="fas fa-laptop-code"></i> Project Examples</Nav.Link>
+                            <Nav.Link className="my-2" href="#newsReports"><i className="fas fa-regular fa-newspaper"></i> News Reports</Nav.Link>
                             <Nav.Link className="my-2" href="#skills"><i className="fas fa-code"></i> Skills</Nav.Link>
                         </Nav>
                         <Nav className="ml-auto d-flex align-items-center">
@@ -56,13 +57,14 @@ function Navigation() {
                         <Nav className="mr-auto d-flex align-items-center">
                             <Nav.Link className="my-2" href="/Portfolio/#about"><i className="far fa-user-circle"></i> About</Nav.Link>
                             <Nav.Link className="my-2" href="/Portfolio/#examples"><i className="fas fa-laptop-code"></i> Project Examples</Nav.Link>
+                            <Nav.Link className="my-2" href="#newsReports"><i className="fas fa-regular fa-newspaper"></i> News Reports</Nav.Link>
                             <Nav.Link className="my-2" href="/Portfolio/#skills"><i className="fas fa-code"></i> Skills</Nav.Link>
                         </Nav>
                         <Nav className="ml-auto d-flex align-items-center">
                             <Nav.Link className="my-2" href="mailto:sunthbocusrian@gmail.com"><i className="far fa-envelope-open"></i> sunthbocusrian@gmail.com</Nav.Link>
                             <Link to="/Portfolio/Full-Portfolio/de" onClick={handleClickGerPortfolio} className="btn lang-btn d-flex flex-row align-items-center">
-                                <div className="flag-de mr-2"></div>
-                                <div>Auf Englisch übersetzen</div>
+                                <div className="flag-en mr-2"></div>
+                                <div>Switch to German</div>
                             </Link>
                         </Nav>
                     </Navbar.Collapse>
@@ -76,6 +78,7 @@ function Navigation() {
                         <Nav className="mr-auto d-flex align-items-center">
                             <Nav.Link className="my-2" href="#about"><i class="far fa-user-circle"></i> Über Mich</Nav.Link>
                             <Nav.Link className="my-2" href="#examples"><i class="fas fa-laptop-code"></i> Projekt Beispiele</Nav.Link>
+                            <Nav.Link className="my-2" href="#newsReports"><i className="fas fa-regular fa-newspaper"></i> Nachrichtenberichte</Nav.Link>
                             <Nav.Link className="my-2" href="#skills"><i class="fas fa-code"></i> Kompetenzen</Nav.Link>
                         </Nav>
                         <Nav className="ml-auto d-flex align-items-center">
@@ -96,13 +99,14 @@ function Navigation() {
                         <Nav className="mr-auto d-flex align-items-center">
                             <Nav.Link className="my-2" href="/Portfolio/de/#about"><i class="far fa-user-circle"></i> Über Mich</Nav.Link>
                             <Nav.Link className="my-2" href="/Portfolio/de/#examples"><i class="fas fa-laptop-code"></i> Projekt Beispiele</Nav.Link>
+                            <Nav.Link className="my-2" href="#newsReports"><i className="fas fa-regular fa-newspaper"></i> Nachrichtenberichte</Nav.Link>
                             <Nav.Link className="my-2" href="/Portfolio/de/#skills"><i class="fas fa-code"></i> Kompetenzen</Nav.Link>
                         </Nav>
                         <Nav className="ml-auto d-flex align-items-center">
                             <Nav.Link className="my-2" href="mailto:sunthbocusrian@gmail.com"><i className="far fa-envelope-open"></i> sunthbocusrian@gmail.com</Nav.Link>
                             <Link to="/Portfolio/Full-Portfolio" onClick={handleClickEndPortfolio} className="btn lang-btn d-flex flex-row align-items-center">
-                                <div className="flag-en mr-2"></div>
-                                <div>Switch to German</div>
+                                <div className="flag-de mr-2"></div>
+                                <div>Auf Englisch übersetzen</div>
                             </Link>
                         </Nav>
                     </Navbar.Collapse>
@@ -116,13 +120,14 @@ function Navigation() {
                         <Nav className="mr-auto d-flex align-items-center">
                             <Nav.Link className="my-2" href="/Portfolio/de/#about"><i class="far fa-user-circle"></i> Über Mich</Nav.Link>
                             <Nav.Link className="my-2" href="/Portfolio/de/#examples"><i class="fas fa-laptop-code"></i> Projekt Beispiele</Nav.Link>
+                            <Nav.Link className="my-2" href="#newsReports"><i className="fas fa-regular fa-newspaper"></i> Nachrichtenberichte</Nav.Link>
                             <Nav.Link className="my-2" href="/Portfolio/de/#skills"><i class="fas fa-code"></i> Kompetenzen</Nav.Link>
                         </Nav>
                         <Nav className="ml-auto d-flex align-items-center">
                             <Nav.Link className="my-2" href="mailto:sunthbocusrian@gmail.com"><i className="far fa-envelope-open"></i> sunthbocusrian@gmail.com</Nav.Link>
                             <Link to="/Portfolio/Full-Portfolio" onClick={handleClickEndPortfolio} className="btn lang-btn d-flex flex-row align-items-center">
-                                <div className="flag-de mr-2"></div>
-                                <div>Auf Englisch übersetzen</div>
+                                <div className="flag-en mr-2"></div>
+                                <div>Switch to English</div>
                             </Link>
                         </Nav>
                     </Navbar.Collapse>

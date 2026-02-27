@@ -26,7 +26,7 @@ const NewsReports = () => {
         <Container>
             <Row>
                 <Col>
-                    <h1 className="display-4 text-center">News Reports of Portfolio Websites</h1>
+                    <h1 className="display-4 text-center">News Reports including Portfolio Websites</h1>
                 </Col>
             </Row>
             <Row
