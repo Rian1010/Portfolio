@@ -6,20 +6,20 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const NewsReports = () => {
     const [fadeInSkills, fadeSkillsHandler] = useState(false);
-      const ref = useRef(null);
-    
-      useEffect(() => {
+    const ref = useRef(null);
+
+    useEffect(() => {
         window.addEventListener('scroll', fadeSkillsFunction);
         function fadeSkillsFunction() {
-          const width = window.innerWidth;
-          const screenSizeHorizontal = 992;
-          if (width >= screenSizeHorizontal) {
+            const width = window.innerWidth;
+            const screenSizeHorizontal = 992;
+            if (width >= screenSizeHorizontal) {
             if (window.scrollY >= 3100) {
-              fadeSkillsHandler(true);
+                fadeSkillsHandler(true);
             }
-          }
+            }
         }
-      });
+    });
 
   return (
     <section className='blue-background py-5' id='newsReports'>

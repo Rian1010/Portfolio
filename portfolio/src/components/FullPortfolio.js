@@ -40,29 +40,29 @@ function FullPorfolioSite() {
         <Route path="/Portfolio/Full-Portfolio" exact>
             <Navigation />
             <Container id="examples" className="py-5 d-flex flex-column justify-content-center align-items-center">
-            <Row>
-                <Col>
-                <h1 className="display-4 mt-5 pt-4 text-center">Portfolio</h1>
-                </Col>
-            </Row>
-            <Row>
-                <Col className="grid grid-3">
-                {fullPortfolio.map((cardInfo, i) => (
-                  <div className='w-100'>
-                    <Cards
-                      key={i}
-                      image={ `bg ${cardInfo.img}` }
-                      technologies={cardInfo.technologies}
-                      title={cardInfo.title}
-                      url={cardInfo.websiteURL}
-                      source={cardInfo.sourceCode}
-                      detailsPage={cardInfo.detailsPage}
-                      click={isUrlAvailable}
-                    />
-                  </div>
-                ))}
-                </Col>
-            </Row>
+              <Row>
+                  <Col>
+                    <h1 className="display-4 mt-5 pt-4 text-center">Portfolio</h1>
+                  </Col>
+              </Row>
+              <Row>
+                  <Col className="grid grid-3">
+                  {fullPortfolio.map((cardInfo, i) => (
+                    <div className='w-100'>
+                      <Cards
+                        key={i}
+                        image={ `bg ${cardInfo.img}` }
+                        technologies={cardInfo.technologies}
+                        title={cardInfo.title}
+                        url={cardInfo.websiteURL}
+                        source={cardInfo.sourceCode}
+                        detailsPage={cardInfo.detailsPage}
+                        click={isUrlAvailable}
+                      />
+                    </div>
+                  ))}
+                  </Col>
+              </Row>
             </Container>
             <Toast show={isUrlAvailable} onClose={closeToast} className="toast-position">
                 <Toast.Header>

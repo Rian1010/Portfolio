@@ -73,7 +73,7 @@ function Banner() {
           <h4 className='lead pl-1'>
             HTML, CSS, SCSS, JavaScript, ReactJS, jQuery, Search Engine Optimisation (SEO), App Store Optimisation (ASO), Python, Django
           </h4>
-          <a href='#about' className='learn-more-btn pb-4'>
+          <a href='#about' className='learn-more-btn pb-4 mt-3'>
             <p>Learn More About What I Do</p>
             <i className='fas fa-chevron-down'></i>
           </a>

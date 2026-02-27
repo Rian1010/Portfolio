@@ -39,7 +39,7 @@ function Cards(props) {
                             // target="_blank" 
                             rel="noopener noreferrer"
                         >
-                            See Details (Coming)
+                            See Details (Coming Soon)
                         </a>
                     }
                 </div>

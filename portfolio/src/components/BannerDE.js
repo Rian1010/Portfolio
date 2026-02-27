@@ -76,7 +76,7 @@ function BannerDE() {
             <h4 className='lead pl-1'>
               HTML, CSS, SCSS, JavaScript, ReactJS, jQuery, Suchmaschinenoptimierung (SEO), App-Store-Optimierung (ASO), Python, Django
             </h4>
-            <div>
+            <div class="mt-3">
               <a
                 href='#learnMoreGerBtn'
                 id='learnMoreGerBtn'
