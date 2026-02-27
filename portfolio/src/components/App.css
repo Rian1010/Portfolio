@@ -179,9 +179,9 @@ html, body {
   max-width: 100%;
 }
 
-/* Cards */
+/* Grids & Cards */
 
-.grid-3 {
+.grid {
   display: grid;
   justify-items: left;
   grid-template-columns: 100%;
@@ -211,6 +211,17 @@ html, body {
     justify-items: left;
     grid-template-columns: 33.33% 33.33% 33.33%;
     column-gap: 10px;
+    row-gap: 15px;
+    grid-template-rows: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .grid-videos {
+    display: grid;
+    justify-items: left;
+    grid-template-columns: 50% 50%;
+    column-gap: 30px;
     row-gap: 15px;
     grid-template-rows: auto;
   }
@@ -325,6 +336,10 @@ html, body {
  .site-24 {
   background-image: url('../img/atmo-rhena.png');
  }
+ 
+ .site-25 {
+  background-image: url('../img/BearingPoint.png');
+ }
 
 .intern-site-1 {
   background-image: url('../img/mendelson.png');
@@ -362,6 +377,19 @@ html, body {
   .toast-position {
     top: 75px;
     right: 20px;
+  }
+}
+
+/* News Reports */
+#newsReports {
+  video {
+    width: 100%;
+    height: auto;
+  }
+  @media (min-width: 1200) {
+    video {
+      width: 500px;
+    }
   }
 }
 

@@ -8,6 +8,7 @@ import CardsDE from './CardsDE';
 import InternshipDE from './InternshipDE';
 import AboutDE from './AboutDE';
 import SkillBarsDE from './SkillBarsDE';
+import NewsReportsDE from './NewsReportsDE'
 import FooterDE from './FooterDE';
 
 import { Link } from 'react-router-dom';
@@ -113,6 +114,7 @@ function GermanSite() {
                   </Col>
                 </Row>
               </Container>
+              <NewsReportsDE />
               <SkillBarsDE />
               <FooterDE />
             </> 

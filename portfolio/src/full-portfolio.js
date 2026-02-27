@@ -162,14 +162,14 @@ const fullPortfolio = [{
         sourceCode: "https://github.com/Rian1010/Charity-Website",
         websiteURL: "https://rian1010.github.io/Charity-Website/"
     },
-    {
-        img: "site-9",
-        title: "Portfolio",
-        titel_DE: "Portfolio",
-        technologies: "ReactJS, JavaScript, Bootstrap, Responsive Web Design, HTML, CSS, Github",
-        sourceCode: "https://github.com/Rian1010/Portfolio",
-        websiteURL: "https://rian1010.github.io/Portfolio/"
-    },
+    // {
+    //     img: "site-9",
+    //     title: "Portfolio",
+    //     titel_DE: "Portfolio",
+    //     technologies: "ReactJS, JavaScript, Bootstrap, Responsive Web Design, HTML, CSS, Github",
+    //     sourceCode: "https://github.com/Rian1010/Portfolio",
+    //     websiteURL: "https://rian1010.github.io/Portfolio/"
+    // },
     {
         img: "site-10",
         title: "Thorin & Company",

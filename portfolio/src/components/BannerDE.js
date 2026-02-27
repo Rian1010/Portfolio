@@ -38,7 +38,7 @@ function BannerDE() {
               Frontend-Entwickler
             </h2>
             <h4 className='lead pl-1'>
-              HTML, CSS, SCSS, JavaScript, ReactJS, jQuery, Python, Django, PostgreSQL, MySQL, noSQL
+              HTML, CSS, SCSS, JavaScript, ReactJS, jQuery, Suchmaschinenoptimierung (SEO), App-Store-Optimierung (ASO) Python, Django
             </h4>
           </Col>
           <Col

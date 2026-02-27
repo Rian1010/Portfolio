@@ -6,6 +6,7 @@ import Cards from './Cards';
 import Internship from './Internship';
 import About from './About';
 import SkillBars from './SkillBars';
+import NewsReports from './NewsReports';
 import Footer from './Footer';
 import internshipSite from '../internship';
 import fullPortfolio from '../full-portfolio';
@@ -61,7 +62,7 @@ function EnglishSite() {
               </Row>
               <Row>
                 <Col className="grid-3">
-                  {fullPortfolio.slice(0,6).map((cardInfo, i) => (
+                  {fullPortfolio.slice(0,12).map((cardInfo, i) => (
                     <div className='w-100'>
                       <Cards
                         key={i}
@@ -115,6 +116,7 @@ function EnglishSite() {
                 </Col>
               </Row>
             </Container>
+            <NewsReports />
             <SkillBars />
             <Footer />
           </div>

@@ -44,7 +44,7 @@ function FullPorfolioSite() {
                 </Col>
             </Row>
             <Row>
-                <Col className="grid-3">
+                <Col className="grid grid-3">
                 {fullPortfolio.map((cardInfo, i) => (
                   <div className='w-100'>
                     <Cards

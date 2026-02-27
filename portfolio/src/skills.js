@@ -5,7 +5,7 @@ const jsSkills = [{
     },
     {
         skillName: "React.js",
-        level: "70",
+        level: "85",
         colour: "success"
     },
     {
@@ -15,26 +15,26 @@ const jsSkills = [{
     },
     {
         skillName: "DC.js & D3.js",
-        level: "30",
+        level: "40",
         colour: "success"
     }
 ]
 
 const pySkills = [{
         skillName: "Python",
-        level: "90",
+        level: "80",
         colour: "info"
     },
     {
         skillName: "Django",
-        level: "88",
+        level: "90",
         colour: "success"
     },
-    {
-        skillName: "Django REST Framework",
-        level: "60",
-        colour: "success"
-    },
+    // {
+    //     skillName: "Django REST Framework",
+    //     level: "60",
+    //     colour: "success"
+    // },
     {
         skillName: "Flask",
         level: "60",
@@ -44,12 +44,12 @@ const pySkills = [{
 
 const mobileDevSkills = [{
         skillName: "Flutter",
-        level: "70",
+        level: "50",
         colour: "info",
     },
     {
         skillName: "Bloc",
-        level: "50",
+        level: "40",
         colour: "success"
     }
 ]
@@ -78,12 +78,12 @@ const ucdSkills = [{
     },
     {
         skillName: "CSS",
-        level: "85",
+        level: "92",
         colour: "info"
     },
     {
         skillName: "SCSS",
-        level: "85",
+        level: "92",
         colour: "success"
     },
     {

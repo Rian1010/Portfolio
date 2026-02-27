@@ -31,7 +31,7 @@ function SkillsBarsDE() {
 
   return (
     <div>
-      <section className='blue-background py-5' id='skills'>
+      <section className='py-5' id='skills'>
         <Container>
           <Row
             className={`text-center ${

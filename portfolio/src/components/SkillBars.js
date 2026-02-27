@@ -29,7 +29,7 @@ function SkillBars() {
   });
 
   return (
-    <section className='blue-background py-5' id='skills'>
+    <section className='py-5' id='skills'>
       <Container>
         <Row
           className={`text-center ${
@@ -47,7 +47,7 @@ function SkillBars() {
               I enjoy working with all of the skills listed below a lot, but I
               especially like JavaScript and Python, as these require the most
               effort for problem solving and different ideas to get things to
-              work. In fact, this website was made using React.js.
+              work.
             </p>
           </Col>
         </Row>
