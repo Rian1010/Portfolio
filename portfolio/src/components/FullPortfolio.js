@@ -14,6 +14,8 @@ import CardsDE from './CardsDE';
 import InternshipDE from './InternshipDE';
 import FooterDE from './FooterDE';
 import { BrowserRouter as Switch, Route } from "react-router-dom"
+import NewsReportsDE from './NewsReportsDE';
+import NewsReports from './NewsReports';
 
 
 function FullPorfolioSite() {
@@ -73,30 +75,31 @@ function FullPorfolioSite() {
                 </Toast.Body>
             </Toast>
             <Container id="intExamples" className="py-5 d-flex flex-column justify-content-center align-items-center">
-            <Row>
-                <Col>
-                <h2 className="display-4 text-center">Internship Work Examples</h2>
-                </Col>
-            </Row>
-            <Row style={{width: "103%"}}>
-                <Col className="grid-3">
-                {internshipSite.slice(0,3).map((cardInfo, i) => (
-                    <Internship
-                    key={i}
-                    image={ `bg ${cardInfo.img}` }
-                    technologies={cardInfo.technologies}
-                    title={cardInfo.title}
-                    url={cardInfo.websiteURL}
-                    />
-                ))}
-                </Col>
-            </Row>
+              <Row>
+                  <Col>
+                  <h2 className="display-4 text-center">Internship Work Examples</h2>
+                  </Col>
+              </Row>
+              <Row style={{width: "103%"}}>
+                  <Col className="grid-3">
+                  {internshipSite.slice(0,3).map((cardInfo, i) => (
+                      <Internship
+                      key={i}
+                      image={ `bg ${cardInfo.img}` }
+                      technologies={cardInfo.technologies}
+                      title={cardInfo.title}
+                      url={cardInfo.websiteURL}
+                      />
+                  ))}
+                  </Col>
+              </Row>
             </Container>
+            <NewsReports />
             <Footer />
           
             </Route>
             <Route path="/Portfolio/Full-Portfolio/de" exact>
-            <Navigation />
+              <Navigation />
               <Container id="examples" className="py-5 d-flex flex-column justify-content-center align-items-center">
                 <Row>
                   <Col>
@@ -151,6 +154,7 @@ function FullPorfolioSite() {
                   </Col>
                 </Row>
               </Container>
+              <NewsReportsDE />
               <FooterDE />
             </Route>
         </Switch>
