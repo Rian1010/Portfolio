@@ -4,29 +4,36 @@ import './App.css';
 import EnglishSite from './EnglishSite';
 import GermanSite from './GermanSite';
 import FullPorfolioSite from './FullPortfolio';
+import ProjectDetails from './ProjectDetails';
+import Layout from './Layout';
+
 
 function App() {
   
   return (
     <div className="App">
       <Router>
-        <Switch>
-          <Route path="/Portfolio/" exact>
-            <EnglishSite />
-          </Route> 
+        <Layout>
+          <Switch>
+            <Route path="/Portfolio/" exact>
+              <EnglishSite />
+            </Route> 
 
-          <Route path="/Portfolio/de" exact>
-            <GermanSite />
-          </Route> 
+            <Route path="/Portfolio/de" exact>
+              <GermanSite />
+            </Route> 
 
-          <Route path="/Portfolio/Full-Portfolio" exact>
-            <FullPorfolioSite />
-          </Route> 
+            <Route path="/Portfolio/Full-Portfolio" exact>
+              <FullPorfolioSite />
+            </Route> 
 
-          <Route path="/Portfolio/Full-Portfolio/de" exact>
-            <FullPorfolioSite />
-          </Route> 
-        </Switch>
+            <Route path="/Portfolio/Full-Portfolio/de" exact>
+              <FullPorfolioSite />
+            </Route> 
+
+            <Route path="/Portfolio/details/:id" component={ProjectDetails} />
+          </Switch>
+        </Layout>
       </Router>
     </div>
   );

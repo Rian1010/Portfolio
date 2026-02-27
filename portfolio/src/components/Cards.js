@@ -4,6 +4,8 @@ import { Card } from 'react-bootstrap';
 import './App.css';
 
 function Cards(props) {
+    const { click, image, url, title, technologies, detailsPage, source } = props;
+    console.log(props);
  
     const [urlAvailable, available] = useState(false);
 
@@ -16,17 +18,30 @@ function Cards(props) {
     }
     return (
         <Card style={{ width: '100%'}} className="mt-5">
-            <a onClick={props.click} variant="top" className={props.image} href={props.url} target="_blank" rel="noopener noreferrer"></a>
+            <a onClick={() => click} variant="top" className={image} href={url} target="_blank" rel="noopener noreferrer"></a>
             <Card.Body className="d-flex flex-column justify-content-between text-center card-body">
-                <Card.Title>{props.title}</Card.Title>
+                <Card.Title>{title}</Card.Title>
                 <Card.Text>
-                    {props.technologies}
+                    {technologies}
                 </Card.Text>
                 <div className="d-flex justify-content-between">
-                    <div onClick={props.click}>
-                        <a onClick={showToast} className={ urlAvailable ? "btn btn-outline-danger" : "btn btn-outline-primary"} href={props.url} target="_blank" rel="noopener noreferrer">Go to the Website</a>
-                    </div>
-                    <a className="btn btn-outline-primary" href={props.source} target="_blank" rel="noopener noreferrer">Source Code</a>
+                    {url && (
+                        <div onClick={() => click} className={!source && !detailsPage ? 'w-100' : ''}>
+                            <a onClick={() => showToast} className={`${ urlAvailable ? "btn btn-outline-danger" : "btn btn-outline-primary"}  w-100`} href={url} target="_blank" rel="noopener noreferrer">Visit the Website</a>
+                        </div>
+                    )}
+                    {source && 
+                        <a className={`${!url ? 'w-100 ' : '' }btn btn-outline-primary`} href={source} target="_blank" rel="noopener noreferrer">Source Code</a>}
+                    {detailsPage && 
+                        <a 
+                            className="btn btn-outline-danger w-100" 
+                            href='#examples' 
+                            // target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            See Details (Coming)
+                        </a>
+                    }
                 </div>
             </Card.Body>
         </Card>

@@ -17,18 +17,19 @@ import { BrowserRouter as Switch, Route } from "react-router-dom"
 
 
 function FullPorfolioSite() {
-    const [urlAvailable, available] = useState(false);
+    const [isUrlAvailable, setIsUrlavailable] = useState(false);
+    const [isSiteAvailable, setIsSiteAvailable] = useState(false);
 
-    function showToast(e) {
+    function showToast(e, availablity) {
         const link = e.target.getAttribute("href");
         if (link === "") {
-            available(!urlAvailable);
+            setIsUrlavailable(!availablity);
             e.preventDefault();
         }
     }
   
     function closeToast() {
-        available(false);
+        setIsUrlavailable(false);
     }
     
     return (
@@ -45,20 +46,23 @@ function FullPorfolioSite() {
             <Row>
                 <Col className="grid-3">
                 {fullPortfolio.map((cardInfo, i) => (
+                  <div className='w-100'>
                     <Cards
-                    key={i}
-                    image={ `bg ${cardInfo.img}` }
-                    technologies={cardInfo.technologies}
-                    title={cardInfo.title}
-                    url={cardInfo.websiteURL}
-                    source={cardInfo.sourceCode}
-                    click={showToast}
+                      key={i}
+                      image={ `bg ${cardInfo.img}` }
+                      technologies={cardInfo.technologies}
+                      title={cardInfo.title}
+                      url={cardInfo.websiteURL}
+                      source={cardInfo.sourceCode}
+                      detailsPage={cardInfo.detailsPage}
+                      click={isUrlAvailable}
                     />
+                  </div>
                 ))}
                 </Col>
             </Row>
             </Container>
-            <Toast show={urlAvailable} onClose={closeToast} className="toast-position">
+            <Toast show={isUrlAvailable} onClose={closeToast} className="toast-position">
                 <Toast.Header>
                 <img src="holder.js/20x20?text=%20" className="rounded mr-2" alt="" />
                 <strong className="mr-auto">Not Yet Available</strong>
@@ -102,20 +106,23 @@ function FullPorfolioSite() {
                 <Row>
                   <Col className="grid-3">
                     {fullPortfolio.map((cardInfo, i) => (
-                      <CardsDE
-                        key={i}
-                        image={ `bg ${cardInfo.img}` }
-                        technologies={cardInfo.technologies}
-                        title={cardInfo.titel}
-                        url={cardInfo.websiteURL}
-                        source={cardInfo.sourceCode}
-                        click={showToast}
-                      />
+                      <div className='w-100'>
+                        <CardsDE
+                          key={i}
+                          image={ `bg ${cardInfo.img}` }
+                          technologies={cardInfo.technologies}
+                          title={cardInfo.titel}
+                          url={cardInfo.websiteURL}
+                          source={cardInfo.sourceCode}
+                          detailsPage={cardInfo.detailsPage}
+                          click={showToast}
+                        />
+                      </div>
                     ))}
                   </Col>
                 </Row>
               </Container>
-              <Toast show={urlAvailable} onClose={closeToast} style={{ position: "fixed", zIndex: 999, top: 75, right: 20 }} >
+              {/*<Toast show={isUrlAvailable} onClose={closeToast} style={{ position: "fixed", zIndex: 999, top: 75, right: 20 }} >
                   <Toast.Header>
                   <strong className="mr-auto">Noch nicht verfügbar</strong>
                   </Toast.Header>
@@ -123,7 +130,7 @@ function FullPorfolioSite() {
                       Verzeihung! Der Link, den Sie erreichen möchten, ist zurzeit noch nicht verfügbar.
                       Sie können jedoch den Quellcode in der Zwischenzeit besichtigen.
                   </Toast.Body>
-              </Toast>
+              </Toast>*/}
               <Container id="intExamples" className="py-5 d-flex flex-column justify-content-center align-items-center">
                 <Row>
                   <Col>

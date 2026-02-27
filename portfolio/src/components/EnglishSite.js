@@ -47,28 +47,22 @@ function EnglishSite() {
           }
       }
   });
-  
-    return (
-            <div>
-              <Navigation />
-              <Banner />
-              <About />
-              <Container id="examples" className={`py-5 d-flex flex-column justify-content-center align-items-center ${fadeInCard ? 'is-visible' : 'invisible-card'}`} ref={refCard}>
-                <Row>
-                  <Col>
-                    <h2 className="display-4 text-center">Project Examples</h2>
-                  </Col>
-                </Row>
-                <Row>
-                    <Col className="mt-3">
-                        <Link to="/Portfolio/Full-Portfolio">
-                            <button className="btn btn-outline-primary btn-lg">Full Portfolio</button>
-                        </Link>
-                    </Col>
-                </Row>
-                <Row>
-                  <Col className="grid-3">
-                    {fullPortfolio.slice(0,6).map((cardInfo, i) => (
+
+  return (
+          <div>
+            <Navigation />
+            <Banner />
+            <About />
+            <Container id="examples" className={`pt-5 d-flex flex-column justify-content-center align-items-center ${fadeInCard ? 'is-visible' : 'invisible-card'}`} ref={refCard}>
+              <Row>
+                <Col>
+                  <h2 className="display-4 text-center">Project Examples</h2>
+                </Col>
+              </Row>
+              <Row>
+                <Col className="grid-3">
+                  {fullPortfolio.slice(0,6).map((cardInfo, i) => (
+                    <div className='w-100'>
                       <Cards
                         key={i}
                         image={ `bg ${cardInfo.img}` }
@@ -76,46 +70,55 @@ function EnglishSite() {
                         title={cardInfo.title}
                         url={cardInfo.websiteURL}
                         source={cardInfo.sourceCode}
+                        detailsPage={cardInfo.detailsPage}
                         click={showToast}
                       />
-                    ))}
+                    </div>
+                  ))}
+                </Col>
+              </Row>
+              <Row>
+                  <Col className="mt-5">
+                      <Link to="/Portfolio/Full-Portfolio">
+                          <button className="btn btn-outline-primary btn-lg">Full Portfolio</button>
+                      </Link>
                   </Col>
-                </Row>
-              </Container>
-              <Toast show={urlAvailable} onClose={closeToast} className="toast-position">
-                  <Toast.Header>
-                  <img src="holder.js/20x20?text=%20" className="rounded mr-2" alt="" />
-                  <strong className="mr-auto">Not Yet Available</strong>
-                  </Toast.Header>
-                  <Toast.Body>
-                      Sorry! The link to the website you are trying to reach is not yet
-                      available, but you can view the source code in the meantime.
-                  </Toast.Body>
-              </Toast>
-              <Container id="intExamples" className={`py-5 d-flex flex-column justify-content-center align-items-center ${fadeInCard ? 'is-visible' : 'invisible-card'}`} ref={refCard}>
-                <Row>
-                  <Col>
-                    <h2 className="display-4 text-center">Internship Work Examples</h2>
-                  </Col>
-                </Row>
-                <Row style={{width: "103%"}}>
-                  <Col className="grid-3">
-                    {internshipSite.map((cardInfo, i) => (
-                      <Internship
-                        key={i}
-                        image={ `bg ${cardInfo.img}` }
-                        technologies={cardInfo.technologies}
-                        title={cardInfo.title}
-                        url={cardInfo.websiteURL}
-                      />
-                    ))}
-                  </Col>
-                </Row>
-              </Container>
-              <SkillBars />
-              <Footer />
-            </div>
-    )
+              </Row>
+            </Container>
+            <Toast show={urlAvailable} onClose={closeToast} className="toast-position">
+                <Toast.Header>
+                <img src="holder.js/20x20?text=%20" className="rounded mr-2" alt="" />
+                <strong className="mr-auto">Not Yet Available</strong>
+                </Toast.Header>
+                <Toast.Body>
+                    Sorry! The link to the website you are trying to reach is not yet
+                    available, but you can view the source code in the meantime.
+                </Toast.Body>
+            </Toast>
+            <Container id="intExamples" className={`py-5 d-flex flex-column justify-content-center align-items-center ${fadeInCard ? 'is-visible' : 'invisible-card'}`} ref={refCard}>
+              <Row>
+                <Col>
+                  <h2 className="display-4 text-center">Internship Work Examples</h2>
+                </Col>
+              </Row>
+              <Row style={{width: "103%"}}>
+                <Col className="grid-3">
+                  {internshipSite.map((cardInfo, i) => (
+                    <Internship
+                      key={i}
+                      image={ `bg ${cardInfo.img}` }
+                      technologies={cardInfo.technologies}
+                      title={cardInfo.title}
+                      url={cardInfo.websiteURL}
+                    />
+                  ))}
+                </Col>
+              </Row>
+            </Container>
+            <SkillBars />
+            <Footer />
+          </div>
+  )
 }
 
 export default EnglishSite

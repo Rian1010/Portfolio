@@ -24,7 +24,9 @@ function Footer() {
                     <Col xs={12} md={4}>
                         <h2>Social Network</h2>
                         <ul className="p-0">
-                            <li className="footer-lists"><a className="footer-colour" href="https://www.linkedin.com/in/rian-sunthbocus-66a509197/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                            <li className="footer-lists">
+                                <a className="footer-colour" href="https://www.linkedin.com/in/rian-sunthbocus-66a509197/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                            </li>
                             <li className="footer-lists"><a className="footer-colour" href="https://www.github.com/Rian1010/" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Github</a></li>
                         </ul>
                     </Col>

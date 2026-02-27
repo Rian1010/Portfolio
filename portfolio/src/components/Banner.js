@@ -33,10 +33,9 @@ function Banner() {
           ref={ref}
         >
           <h1 className='display-1'>Hi, I'm Rian!</h1>
-          <h2 className='display-4'>Full-Stack Software Developer Portfolio 2021</h2>
+          <h2 className='display-4'>Frontend Developer (Portfolio 2021)</h2>
           <h4 className='lead pl-1'>
-            HTML, CSS, JavaScript, Python, Django, React.js, jQuery,
-            Flask, SQL, MongoDB, AWS
+            HTML, CSS, SCSS, JavaScript, ReactJS, jQuery, Python, Django
           </h4>
         </Col>
         <Col
@@ -70,10 +69,9 @@ function Banner() {
           className='d-md-none flex-column d-flex justify-content-center align-items-left pl-md-5 text-center'
         >
           <h1 className='display-4'>Hi, I'm Rian!</h1>
-          <h2>Full-Stack Software Developer Portfolio 2021</h2>
+          <h2>Frontend Developer</h2>
           <h4 className='lead pl-1'>
-            HTML, CSS, JavaScript, Flutter, Python, Django, React.js,jQuery,
-            Flask, SQL, MongoDB, AWS
+            HTML, CSS, JavaScript, ReactJS, jQuery,Python, Django,
           </h4>
           <a href='#about' className='learn-more-btn pb-4'>
             <p>Learn More About What I Do</p>

@@ -5,17 +5,12 @@ const jsSkills = [{
     },
     {
         skillName: "React.js",
-        level: "88",
+        level: "70",
         colour: "success"
     },
     {
         skillName: "jQuery",
-        level: "86",
-        colour: "success"
-    },
-    {
-        skillName: "Node.js & Express.js",
-        level: "50",
+        level: "70",
         colour: "success"
     },
     {
@@ -37,19 +32,19 @@ const pySkills = [{
     },
     {
         skillName: "Django REST Framework",
-        level: "88",
+        level: "60",
         colour: "success"
     },
     {
         skillName: "Flask",
-        level: "80",
+        level: "60",
         colour: "success"
     }
 ]
 
 const mobileDevSkills = [{
         skillName: "Flutter",
-        level: "85",
+        level: "70",
         colour: "info",
     },
     {
@@ -83,12 +78,12 @@ const ucdSkills = [{
     },
     {
         skillName: "CSS",
-        level: "95",
+        level: "85",
         colour: "info"
     },
     {
         skillName: "SCSS",
-        level: "95",
+        level: "85",
         colour: "success"
     },
     {
@@ -109,7 +104,7 @@ const versionControl = [{
         colour: "info"
     },
     {
-        skillName: "Amazon Web Service",
+        skillName: "Amazon Web Service S3",
         level: "90",
         colour: "info"
     },

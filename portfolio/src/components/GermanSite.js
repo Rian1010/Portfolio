@@ -48,37 +48,40 @@ function GermanSite() {
   });
 
     return (
-            <div>
+            <>
               <Navigation />
               <BannerDE />
               <AboutDE />
-              <Container id="examples" className={`py-5 d-flex flex-column justify-content-center align-items-center ${fadeInCard ? 'is-visible' : 'invisible-card'}`} ref={refCard}>
+              <Container id="examples" className={`pt-5 d-flex flex-column justify-content-center align-items-center ${fadeInCard ? 'is-visible' : 'invisible-card'}`} ref={refCard}>
                 <Row>
                   <Col>
                     <h2 className="display-4 text-center">Projekt Beispiele</h2>
                   </Col>
                 </Row>
                 <Row>
-                    <Col className="mt-3">
+                  <Col className="grid-3">
+                    {fullPortfolio.slice(0,12).map((cardInfo, i) => (
+                      <div className='w-100'>
+                        <CardsDE
+                          key={i}
+                          image={ `bg ${cardInfo.img}` }
+                          technologies={cardInfo.technologies}
+                          title={cardInfo.titel_DE}
+                          url={cardInfo.websiteURL}
+                          source={cardInfo.sourceCode}
+                          detailsPage={cardInfo.detailsPage}
+                          click={showToast}
+                        />
+                      </div>
+                    ))}
+                  </Col>
+                </Row>
+                <Row>
+                    <Col className="mt-5">
                         <Link to="/Portfolio/Full-Portfolio/de">
                             <button className="btn btn-outline-primary btn-lg">Ganzes Portfolio</button>
                         </Link>
                     </Col>
-                </Row>
-                <Row>
-                  <Col className="grid-3">
-                    {fullPortfolio.slice(0,6).map((cardInfo, i) => (
-                      <CardsDE
-                        key={i}
-                        image={ `bg ${cardInfo.img}` }
-                        technologies={cardInfo.technologies}
-                        title={cardInfo.titel}
-                        url={cardInfo.websiteURL}
-                        source={cardInfo.sourceCode}
-                        click={showToast}
-                      />
-                    ))}
-                  </Col>
                 </Row>
               </Container>
               <Toast show={urlAvailable} onClose={closeToast} style={{ position: "fixed", zIndex: 999, top: 75, right: 20 }} >
@@ -112,7 +115,7 @@ function GermanSite() {
               </Container>
               <SkillBarsDE />
               <FooterDE />
-            </div> 
+            </> 
     )
 }
 

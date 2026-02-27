@@ -35,11 +35,10 @@ function BannerDE() {
           >
             <h1 className='display-1'>Hi, ich bin Rian!</h1>
             <h2 className='display-4 word-break'>
-              Full-Stack-Softwareentwickler
+              Frontend-Entwickler
             </h2>
             <h4 className='lead pl-1'>
-              HTML, CSS, JavaScript, Python, Django, React.js, jQuery,
-              Flask, SQL, MongoDB, AWS
+              HTML, CSS, SCSS, JavaScript, ReactJS, jQuery, Python, Django, PostgreSQL, MySQL, noSQL
             </h4>
           </Col>
           <Col

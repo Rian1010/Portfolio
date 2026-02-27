@@ -108,6 +108,26 @@ function Navigation() {
                     </Navbar.Collapse>
                 </Navbar>  
             </Route>
+            <Route path="/Portfolio/details/:id">
+                <Navbar expand="lg" bg="" variant="light" style={navColour} fixed="top">
+                    <Navbar.Brand href="/Portfolio/">Rian Sunthbocus</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="mr-auto d-flex align-items-center">
+                            <Nav.Link className="my-2" href="/Portfolio/de/#about"><i class="far fa-user-circle"></i> Über Mich</Nav.Link>
+                            <Nav.Link className="my-2" href="/Portfolio/de/#examples"><i class="fas fa-laptop-code"></i> Projekt Beispiele</Nav.Link>
+                            <Nav.Link className="my-2" href="/Portfolio/de/#skills"><i class="fas fa-code"></i> Kompetenzen</Nav.Link>
+                        </Nav>
+                        <Nav className="ml-auto d-flex align-items-center">
+                            <Nav.Link className="my-2" href="mailto:sunthbocusrian@gmail.com"><i className="far fa-envelope-open"></i> sunthbocusrian@gmail.com</Nav.Link>
+                            <Link to="/Portfolio/Full-Portfolio" onClick={handleClickEndPortfolio} className="btn lang-btn d-flex flex-row align-items-center">
+                                <div className="flag-en mr-2"></div>
+                                <div>Englisch</div>
+                            </Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Navbar>  
+            </Route>
         </Switch>
     );
 }
